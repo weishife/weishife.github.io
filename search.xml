@@ -1,31 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2020/09/24/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<a id="more"></a>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post1111&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-<h2 id="图片资源"><a href="#图片资源" class="headerlink" title="图片资源"></a>图片资源</h2><p><img src="/images/hello.png"></p>
-<h2 id="直接在文章中编写脚本"><a href="#直接在文章中编写脚本" class="headerlink" title="直接在文章中编写脚本"></a>直接在文章中编写脚本</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="string">&#x27;test&#x27;</span>);</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">alert(<span class="string">&#x27;Hello World!&#x27;</span>);</span><br></pre></td></tr></table></figure>
-
-<script>console.log('hello world')</script>
-]]></content>
-  </entry>
-  <entry>
     <title>blog</title>
     <url>/2020/09/28/blog/</url>
     <content><![CDATA[<img src="/2020/09/28/blog/star.jpg" class="" title="This is an example image">
@@ -39,8 +14,10 @@
 
 
 <img src="/2020/09/28/blog/hello.png" class="" title="This is an example image">
+
 <!-- 下面两种方式不会在首页显示 -->
 <img src='./hello.png' style="display:block; margin: 0 auto;">
+
 
 <p><img src="./hello.png"></p>
 <h2 id="特定功能"><a href="#特定功能" class="headerlink" title="特定功能"></a>特定功能</h2><p>在 Hexo 中有两份主要的配置文件，其名称都是 _config.yml。 其中，一份位于站点根目录下，主要包含 Hexo 本身的配置；另一份位于主题目录下，这份配置由主题作者提供，主要用于配置主题相关的选项。</p>
@@ -72,6 +49,10 @@
 <p>站点配置：</p>
 <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">moon_menu:</span></span><br><span class="line">  <span class="attr">back2top:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-chevron-up</span></span><br><span class="line">    <span class="attr">func:</span> <span class="string">back2top</span></span><br><span class="line">    <span class="attr">order:</span> <span class="number">-1</span></span><br><span class="line">  <span class="attr">back2bottom:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-chevron-down</span></span><br><span class="line">    <span class="attr">func:</span> <span class="string">back2bottom</span></span><br><span class="line">    <span class="attr">order:</span> <span class="number">-2</span></span><br></pre></td></tr></table></figure>
 
+<h3 id="实时预览"><a href="#实时预览" class="headerlink" title="实时预览"></a>实时预览</h3><p><a href="https://github.com/hexojs/hexo-browsersync">hexo-browsersync</a></p>
+<p>站点配置：</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">browsersync:</span></span><br><span class="line">  <span class="attr">logLevel:</span> <span class="string">&quot;warn&quot;</span></span><br><span class="line">  <span class="attr">ghostMode:</span></span><br><span class="line">    <span class="attr">scroll:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">instanceName:</span> <span class="string">&quot;uniqueString&quot;</span></span><br></pre></td></tr></table></figure>
+<p>再执行 hexo server 即可实时预览。</p>
 <!-- <blockquote class="blockquote-center">Talk is cheap, show me the code!</blockquote> -->
 
 <blockquote class="blockquote-center">
@@ -81,11 +62,13 @@
             <i class="fa fa-quote-right"></i>
           </blockquote>
 
+
 <p>优化相关：<br>TODO</p>
 <ul>
 <li><input disabled="" type="checkbox"> <a href="https://github.com/netcan/hexo-generator-index-pin-top">置顶</a></li>
 <li><input disabled="" type="checkbox"> <a href="https://github.com/hexojs/hexo-generator-sitemap">站点地图</a></li>
 <li><input disabled="" type="checkbox"> <a href="https://github.com/coneycode/hexo-generator-baidu-sitemap">百度站点地图</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://github.com/hexojs/hexo-browsersync">实时预览，hexo-browsersync</a></li>
 <li><input checked="" disabled="" type="checkbox"> <a href="https://github.com/jiangtj-lab/hexo-cake-moon-menu">hexo-cake-moon-menu</a></li>
 </ul>
 <p>其他主题推荐：</p>
@@ -106,5 +89,30 @@
         <tag>css</tag>
         <tag>tech</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/09/24/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<a id="more"></a>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post1111&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h2 id="图片资源"><a href="#图片资源" class="headerlink" title="图片资源"></a>图片资源</h2><p><img src="/images/hello.png"></p>
+<h2 id="直接在文章中编写脚本"><a href="#直接在文章中编写脚本" class="headerlink" title="直接在文章中编写脚本"></a>直接在文章中编写脚本</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="string">&#x27;test&#x27;</span>);</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">alert(<span class="string">&#x27;Hello World!&#x27;</span>);</span><br></pre></td></tr></table></figure>
+
+<script>console.log('hello world')</script>
+]]></content>
   </entry>
 </search>
