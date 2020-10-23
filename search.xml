@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/2020/10/22/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<a id="more"></a>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post1111&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h2 id="图片资源"><a href="#图片资源" class="headerlink" title="图片资源"></a>图片资源</h2><p><img src="/images/hello.png"></p>
+<h2 id="直接在文章中编写脚本"><a href="#直接在文章中编写脚本" class="headerlink" title="直接在文章中编写脚本"></a>直接在文章中编写脚本</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="string">&#x27;test&#x27;</span>);</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">alert(<span class="string">&#x27;Hello World!&#x27;</span>);</span><br></pre></td></tr></table></figure>
+
+<script>console.log('hello world')</script>
+]]></content>
+  </entry>
+  <entry>
     <title>blog</title>
     <url>/2020/09/28/blog/</url>
     <content><![CDATA[<img src="/2020/09/28/blog/star.jpg" class="" title="This is an example image">
@@ -91,38 +116,15 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2020/10/22/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<a id="more"></a>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post1111&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-<h2 id="图片资源"><a href="#图片资源" class="headerlink" title="图片资源"></a>图片资源</h2><p><img src="/images/hello.png"></p>
-<h2 id="直接在文章中编写脚本"><a href="#直接在文章中编写脚本" class="headerlink" title="直接在文章中编写脚本"></a>直接在文章中编写脚本</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="string">&#x27;test&#x27;</span>);</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">alert(<span class="string">&#x27;Hello World!&#x27;</span>);</span><br></pre></td></tr></table></figure>
-
-<script>console.log('hello world')</script>
-]]></content>
-  </entry>
-  <entry>
     <title>关于webpack-cli近期发布最新版4.0.0带来的问题</title>
-    <url>/2020/10/22/webpack/issue-1/</url>
+    <url>/2020/10/23/webpack/issue-1/</url>
     <content><![CDATA[<h2 id="问题现象"><a href="#问题现象" class="headerlink" title="问题现象"></a>问题现象</h2><p><code>webpack</code>项目启动<code>webpack-dev-server</code>服务失败，报Error: Cannot find module ‘webpack-cli/bin/config-yargs’</p>
+<a id="more"></a>
+
 <p><img src="/images/webpack/issue1-1.png"></p>
 <h2 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h2><p><code>webpack-cli</code>回退版本到3.3.12：</p>
 <blockquote>
-<p>npm install <a href="mailto:&#119;&#x65;&#x62;&#x70;&#x61;&#x63;&#107;&#45;&#99;&#x6c;&#x69;&#x40;&#51;&#46;&#x33;&#x2e;&#49;&#x32;">&#119;&#x65;&#x62;&#x70;&#x61;&#x63;&#107;&#45;&#99;&#x6c;&#x69;&#x40;&#51;&#46;&#x33;&#x2e;&#49;&#x32;</a> –save-dev</p>
+<p>npm install <a href="mailto:&#x77;&#x65;&#x62;&#112;&#x61;&#x63;&#107;&#x2d;&#x63;&#108;&#105;&#64;&#x33;&#x2e;&#51;&#46;&#49;&#50;">&#x77;&#x65;&#x62;&#112;&#x61;&#x63;&#107;&#x2d;&#x63;&#108;&#105;&#64;&#x33;&#x2e;&#51;&#46;&#49;&#50;</a> –save-dev</p>
 </blockquote>
 <p>其他诸如<code>webpack</code>、<code>webpack-dev-server</code>等用最新版本即可。</p>
 <h2 id="出现原因"><a href="#出现原因" class="headerlink" title="出现原因"></a>出现原因</h2><p><code>webpack-cli</code>几天前发布的最新版4.0.0版移除了yargs包，而紧挨4.0.0版本的上一正式版本3.3.12还在：</p>
@@ -137,9 +139,49 @@
         <category>webpack</category>
       </categories>
       <tags>
+        <tag>webpack</tag>
         <tag>webpack-cli</tag>
         <tag>webpack-dev-server</tag>
-        <tag>webpack</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>开始 React Native 开发之旅</title>
+    <url>/2020/10/22/react-native/welcome/</url>
+    <content><![CDATA[<p>最近微师前端团队使用React Native完成了原App的重构，使得App在用户体验上有了很大的提升。对于本次React Native初体验，还是有颇多需要总结记录的地方，所以通过这个系列博客的形式分享开发过程中核心技术点，帮助需要的人少走弯路。</p>
+<a id="more"></a>
+<h2 id="聊一聊跨端开发"><a href="#聊一聊跨端开发" class="headerlink" title="聊一聊跨端开发"></a>聊一聊跨端开发</h2><p>随着移动互联网时代的到来，各式各类网页上的内容，聚焦到一个一个手机上的App中，而且更新迭代的速度也是越来越快。在传统的纯原生的开发方式下，需要Android和IOS两个团队分别进行相同的开发内容，而且版本发布需要等待应用审核的周期，速度十分受限。因此衍生出了一些跨端开发的方案：</p>
+<ul>
+<li>基于WebView的Hybrid App（混合应用），利用原生Android和IOS的webview组件加载前端的资源，开发效率很高，但在一些操作体验上没有原生的应用流畅。</li>
+<li>利用中间层将前端代码编译成原生代码，如 React Native 与Weex，可以实现近原生体验的App。</li>
+<li>Flutter重写渲染引擎，Google出品，使用的是Dart语言，对于原生开发的或者前端开发都具有一定的上手难度(前端角度)。<br>在最初的技术选型阶段，从目前的流行程度来看主要围绕React Native和Flutter之中调研，最后优于前端技术栈主要是React，团队成员上手较为容易，且支持热更新特性，最终选择了React Native。</li>
+</ul>
+<h2 id="React-Native简介"><a href="#React-Native简介" class="headerlink" title="React Native简介"></a>React Native简介</h2><p><img src="/images/react-native/react-native.png"><br>React Native是Facebook与2015年3月发布的专注于移动端App发开的框架，框架在React框架的基础上，底层通过对IOS和Android平台原生代码的封装和调用，通过一套前端的代码就可以生成Android和IOS应用，在性能和体验上远胜于基于H5开发方式。<br>React Native最新版本为0.63，最低支持IOS10、Android4.1，到目前为止Github Star数量已经达到90.8K，而且React Native周边的一些工具库也是非常很完善，要实现一个App所需要的一些基本功能，都有相应的解决方案。<br>目前京东、QQ空间、手机QQ（Android）、手机百度等App均使用了React Native作为技术方案，当然也有一些曾经的重要的贡献者Airbnb放弃了React Native而重新回到了原生的开发中,放弃的原因可以阅读<a href="https://juejin.im/post/6844903623080542216">《Airbnb: React Native 从选择到放弃》</a>。</p>
+<h2 id="React-Native开发体验总结"><a href="#React-Native开发体验总结" class="headerlink" title="React Native开发体验总结"></a>React Native开发体验总结</h2><p>基于React Native框架，我们团队重构了微师App，因为一些功能目前阶段还只能在原生端进行实现，所以采用了React Native 打包JSBundle后集成是原生代码的混合开发模式。不得不说相较与之前Webview的方式，新版App在用户体验上有了很大的提升，可扫码下载体验。<br><img src="/images/react-native/qrcode.png"></p>
+<p>总体来说React Native具有以下优点：</p>
+<ul>
+<li>应用用户体验接近于原生开发</li>
+<li>社区活跃，基本遇到的问题 都能找到相应的解决方案</li>
+<li>支持热更新，快速迭代</li>
+<li>使用 React 对于前端开发者较为友好</li>
+</ul>
+<p>但是也存在以下不可回避的问题：</p>
+<ul>
+<li>开发者除了React Native开发的技能，在一些混合开发场景下还需要掌握一定的Android和IOS开发技能</li>
+<li>React Native原生动画实现起来较为复杂，且流畅度不是很高</li>
+</ul>
+<p>我们的经验是，当发现一些开源组件有一些奇奇怪怪的问题，或者需要一些成熟的解决方案的时候，要利用好github这一资源，在Issue中，大部分的问题可能其他人早就遇到并有解决方案了。另外，要与公司内原生Android和IOS的同事，处好关系。因为对这项目的进行你会发现，很多地方任然要回归到原生的方案进行解决~</p>
+<h2 id="开始-React-Native-开发之旅"><a href="#开始-React-Native-开发之旅" class="headerlink" title="开始 React Native 开发之旅"></a>开始 React Native 开发之旅</h2><p>这篇文章仅仅介绍一些React Native的介绍，和团队在使用中切实的一些体会，后续将会以系列的博客的形式，由浅入深，从原理、基础组件、布局到本地存储、热更新等分享React Native开发过程的一些技术点。</p>
+<h2 id="学习资料"><a href="#学习资料" class="headerlink" title="学习资料"></a>学习资料</h2><ul>
+<li><a href="https://github.com/crazycodeboy/react-native-awesome">《React Native Awesome》</a></li>
+<li><a href="https://tech.meituan.com/2019/12/19/meituan-mrn-practice.html">《React Native在美团外卖客户端的实践》</a></li>
+<li><a href="https://reactnative.cn/"> React Native中文网</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>React-Native</category>
+      </categories>
+      <tags>
+        <tag>React-Native</tag>
       </tags>
   </entry>
 </search>
