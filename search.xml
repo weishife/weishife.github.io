@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2020/10/22/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<a id="more"></a>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post1111&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-<h2 id="图片资源"><a href="#图片资源" class="headerlink" title="图片资源"></a>图片资源</h2><p><img src="/images/hello.png"></p>
-<h2 id="直接在文章中编写脚本"><a href="#直接在文章中编写脚本" class="headerlink" title="直接在文章中编写脚本"></a>直接在文章中编写脚本</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="string">&#x27;test&#x27;</span>);</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">alert(<span class="string">&#x27;Hello World!&#x27;</span>);</span><br></pre></td></tr></table></figure>
-
-<script>console.log('hello world')</script>
-]]></content>
-  </entry>
-  <entry>
-    <title>blog</title>
+    <title>博客使用指南</title>
     <url>/2020/09/28/blog/</url>
     <content><![CDATA[<img src="/2020/09/28/blog/star.jpg" class="" title="This is an example image">
 <p>2020-微师-FE</p>
@@ -40,11 +15,6 @@
 
 <img src="/2020/09/28/blog/hello.png" class="" title="This is an example image">
 
-<!-- 下面两种方式不会在首页显示 -->
-<img src='./hello.png' style="display:block; margin: 0 auto;">
-
-
-<p><img src="./hello.png"></p>
 <h2 id="特定功能"><a href="#特定功能" class="headerlink" title="特定功能"></a>特定功能</h2><p>在 Hexo 中有两份主要的配置文件，其名称都是 _config.yml。 其中，一份位于站点根目录下，主要包含 Hexo 本身的配置；另一份位于主题目录下，这份配置由主题作者提供，主要用于配置主题相关的选项。</p>
 <p>为了描述方便，在以下说明中，将前者称为 站点配置文件， 后者称为 主题配置文件。</p>
 <p><strong>目前hexo支持在站点文件中配置，而不用修改主题文件，mark</strong></p>
@@ -107,41 +77,401 @@
 </ul>
 ]]></content>
       <categories>
-        <category>tech</category>
+        <category>博客</category>
       </categories>
       <tags>
-        <tag>javascript</tag>
-        <tag>css</tag>
-        <tag>tech</tag>
+        <tag>博客</tag>
       </tags>
   </entry>
   <entry>
-    <title>关于webpack-cli近期发布最新版4.0.0带来的问题</title>
-    <url>/2020/10/23/webpack/issue-1/</url>
-    <content><![CDATA[<h2 id="问题现象"><a href="#问题现象" class="headerlink" title="问题现象"></a>问题现象</h2><p><code>webpack</code>项目启动<code>webpack-dev-server</code>服务失败，报Error: Cannot find module ‘webpack-cli/bin/config-yargs’</p>
+    <title>Hello World</title>
+    <url>/2020/09/27/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <a id="more"></a>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post1111&quot;</span></span><br></pre></td></tr></table></figure>
 
-<p><img src="/images/webpack/issue1-1.png"></p>
-<h2 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h2><p><code>webpack-cli</code>回退版本到3.3.12：</p>
-<blockquote>
-<p>npm install <a href="mailto:&#x77;&#x65;&#x62;&#112;&#x61;&#x63;&#107;&#x2d;&#x63;&#108;&#105;&#64;&#x33;&#x2e;&#51;&#46;&#49;&#50;">&#x77;&#x65;&#x62;&#112;&#x61;&#x63;&#107;&#x2d;&#x63;&#108;&#105;&#64;&#x33;&#x2e;&#51;&#46;&#49;&#50;</a> –save-dev</p>
-</blockquote>
-<p>其他诸如<code>webpack</code>、<code>webpack-dev-server</code>等用最新版本即可。</p>
-<h2 id="出现原因"><a href="#出现原因" class="headerlink" title="出现原因"></a>出现原因</h2><p><code>webpack-cli</code>几天前发布的最新版4.0.0版移除了yargs包，而紧挨4.0.0版本的上一正式版本3.3.12还在：</p>
-<p><img src="/images/webpack/issue1-2.png"></p>
-<p><img src="/images/webpack/issue1-3.png"></p>
-<p><img src="/images/webpack/issue1-4.png"></p>
-<h2 id="其他思考"><a href="#其他思考" class="headerlink" title="其他思考"></a>其他思考</h2><p><code>webpack-dev-server</code>的启动依赖了<code>webpack-cli</code>中的yargs配置模块，然而<code>webpack-dev-server</code>的最近一次更新已经快半年了，所以初步可认为是<code>webpack-cli</code>的问题。没有去深入研究过该模块相关的具体内容，尽管作者evilebottnawi本人说是<code>webpack-dev-server</code>的bug，会在不久后修复。可能依赖此模块一开始就是个错误的选择吧，所以最新版直接删掉了或者整合到了其他模块也不一定。利用<code>webpack serve</code>的方式启动<code>webpack-dev-server</code>也可以解决这个问题，只不过就不再有代码热更新的效果了。</p>
-<p><img src="/images/webpack/issue1-5.png"></p>
-<p><img src="/images/webpack/issue1-6.png"></p>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h2 id="图片资源"><a href="#图片资源" class="headerlink" title="图片资源"></a>图片资源</h2><p><img src="/images/hello.png"></p>
+<h2 id="直接在文章中编写脚本"><a href="#直接在文章中编写脚本" class="headerlink" title="直接在文章中编写脚本"></a>直接在文章中编写脚本</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="string">&#x27;test&#x27;</span>);</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">alert(<span class="string">&#x27;Hello World!&#x27;</span>);</span><br></pre></td></tr></table></figure>
+
+<script>console.log('hello world')</script>
+]]></content>
+  </entry>
+  <entry>
+    <title>Fabric.js简介</title>
+    <url>/2020/12/23/canvas/Fabric.js/</url>
+    <content><![CDATA[<p>​在实际工作中，接触到整体的一个作业批改的流程。所以对作业的批改有部分了解，<br>​故做此fabric的使用总结，希望能够抛砖引玉，大家共同探讨</p>
+<a id="more"></a>
+<h3 id="什么是Fabric-js"><a href="#什么是Fabric-js" class="headerlink" title="什么是Fabric.js"></a><strong>什么是Fabric.js</strong></h3><p>​      一个功能强大的Javascript库,使使用HTML5 canvas变得轻而易举。<br>​      Fabric.js为Canvas提供所缺少的对象模型, 交互和一整套其他不可或缺的工具</p>
+<h3 id="为什么要用它而不用其他的"><a href="#为什么要用它而不用其他的" class="headerlink" title="为什么要用它而不用其他的"></a><strong>为什么要用它而不用其他的</strong></h3><p>   首先，Canvas提供了一个画布的能力, 但是api不够友好。我们在pc端的批改是用的原生canvas,但应用到小程序经过调研发现并不合适。canvas.绘制简单图形其</p>
+<p>实还可以, 不过做一些复杂的图形绘制, 编写一些复杂的效果，就不是那么方便了。所以，我们决定使用Fabric.js来开发</p>
+<p>它主要就是用<strong>对象的</strong>方式去编写代码。</p>
+<p> <strong>原生： canvas 和fabric的对比</strong></p>
+<p>   <strong>同样条件下绘制一个矩形</strong></p>
+<ul>
+<li>a.原生canvas</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> canvasEl = <span class="built_in">document</span>.getElementById（<span class="string">&#x27;c&#x27;</span>）;</span><br><span class="line"><span class="keyword">var</span> ctx = canvasEl.getContext（<span class="string">&#x27;2d&#x27;</span>）;</span><br><span class="line">ctx.fillStyle =‘红色<span class="string">&#x27;; //在100,100点处创建20x20尺寸的矩形</span></span><br><span class="line"><span class="string">ctx.fillRect（100，100，20，20）;</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>b.fabric.js</strong></li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> canvas = <span class="keyword">new</span> fabric.Canvas（<span class="string">&#x27;c&#x27;</span>）;<span class="comment">//创建一个矩形对象</span></span><br><span class="line"><span class="keyword">var</span> rect = <span class="keyword">new</span> fabric.Rect（&#123;</span><br><span class="line">  left：<span class="number">100</span>，</span><br><span class="line">  top：<span class="number">100</span></span><br><span class="line">  fill：“红色”，</span><br><span class="line">  width：<span class="number">20</span>，</span><br><span class="line">  Height：<span class="number">20</span></span><br><span class="line">&#125;）;<span class="comment">//在画布上“添加”矩形canvas.add（rect）;</span></span><br></pre></td></tr></table></figure>
+
+<p>   <strong>使用自由画笔</strong></p>
+<ul>
+<li>a.原生canvas</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> drawLine = <span class="function">(<span class="params">x1, y1, x2, y2</span>) =&gt;</span></span><br><span class="line">		&#123;</span><br><span class="line">				<span class="keyword">const</span> &#123; ctx &#125; = getCanvas();</span><br><span class="line">				ctx.lineWidth = <span class="number">2</span>;</span><br><span class="line">				ctx.lineCap = <span class="string">&#x27;round&#x27;</span>;</span><br><span class="line">				ctx.lineJoin = <span class="string">&#x27;round&#x27;</span>;</span><br><span class="line">				ctx.fillStyle = <span class="string">&#x27;red&#x27;</span>;</span><br><span class="line">				ctx.strokeStyle = <span class="string">&#x27;red&#x27;</span>;</span><br><span class="line">				ctx.moveTo(x1, y1); <span class="comment">// lineTo(x, y) 绘制一条从当前位置到指定x以及y位置的直线</span></span><br><span class="line">				ctx.lineTo(x2, y2); <span class="comment">// 通过线条来绘制图形轮廓</span></span><br><span class="line">				ctx.stroke();</span><br><span class="line">				ctx.closePath();</span><br><span class="line">		&#125;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>b.使用Fabric.js</strong></li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="title">freeDraw</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">			 canvasCtx.isDrawingMode = <span class="literal">true</span>;</span><br><span class="line">			 canvasCtx.freeDrawingBrush.color = <span class="string">&#x27;red&#x27;</span>;</span><br><span class="line">         canvasCtx.freeDrawingBrush.width = <span class="number">2</span>;</span><br><span class="line"> &#125;;</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="如何使用"><a href="#如何使用" class="headerlink" title="如何使用"></a><strong>如何使用</strong></h3><p><strong>引入：</strong><br>     <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">    1、npm安装： npm install fabric --save</span><br><span class="line">​    2、通过CDN引入：&lt;script src&#x3D;&quot;http:&#x2F;&#x2F;cdnjs.cloudflare.com&#x2F;ajax&#x2F;libs&#x2F;fabric.js&#x2F;2.4.6&#x2F;fabric.min.js&quot;&gt;&lt;&#x2F;script&gt;</span><br><span class="line">​    3、项目中引入使用： import &#123; fabric &#125; from &#39;fabric&#39;</span><br></pre></td></tr></table></figure></p>
+<p>   <strong>创建实例：</strong></p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">js:</span><br><span class="line">canvasCtx = <span class="keyword">new</span> fabric.Canvas(<span class="string">&#x27;my-canvas&#x27;</span>, &#123;</span><br><span class="line">            enableRetinaScaling: <span class="literal">true</span>,</span><br><span class="line">            perPixelTargetFind: <span class="literal">true</span>, <span class="comment">// 对象基于像素检测</span></span><br><span class="line">            skipTargetFind: <span class="literal">true</span>,</span><br><span class="line">            selection: <span class="literal">false</span>,</span><br><span class="line">            selectable: <span class="literal">false</span></span><br><span class="line">        &#125;);</span><br><span class="line"></span><br><span class="line">dom:</span><br><span class="line">	&lt;canvas</span><br><span class="line">        id=<span class="string">&quot;my-canvas&quot;</span></span><br><span class="line">        className=<span class="string">&quot;canvas&quot;</span></span><br><span class="line">        width=<span class="number">375</span></span><br><span class="line">        height=<span class="number">650</span></span><br><span class="line">    &gt;&lt;/canvas&gt;</span><br></pre></td></tr></table></figure>
+
+<p> <img src="/images/fabric/create.png"><br>由图可知，创建完实例后，fabric.js会构建两层 canvas 元素：lower-canvas 和 upper-canvas</p>
+<p>   lower-canvas: 只负责渲染元素</p>
+<p>   upper-canvas: 负责所有的事件处理</p>
+<h3 id="事件绑定"><a href="#事件绑定" class="headerlink" title="事件绑定"></a>事件绑定</h3><p>// 事件绑定</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="title">mouseEvent</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">    canvasCtx.on(<span class="string">&#x27;mouse:down&#x27;</span>, <span class="function">(<span class="params">options</span>) =&gt;</span> &#123;</span><br><span class="line">          TODO:获取点坐标</span><br><span class="line">    &#125;);</span><br><span class="line">    canvasCtx.on(<span class="string">&#x27;mouse:move&#x27;</span>, <span class="function">(<span class="params">options</span>) =&gt;</span> &#123;</span><br><span class="line">          TODO:</span><br><span class="line">    &#125;);</span><br><span class="line">    canvasCtx.on(<span class="string">&#x27;mouse:up&#x27;</span>, <span class="function">(<span class="params">options</span>) =&gt;</span> &#123;</span><br><span class="line">          TODO:</span><br><span class="line">    &#125;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>​      最新版本的Fabric已经不需要判断手动还是点击事件，兼容的Events.js能够兼容在移动端的手势操作：</p>
+<p> 根据下图对比可以看到，在不同平台下所触发的事件是不同的，所以可以开箱即用。</p>
+<ul>
+<li><p><strong>移动端</strong><br><img src="/images/fabric/touch.png"></p>
+</li>
+<li><p><strong>PC端</strong></p>
+<p><img src="/images/fabric/pcClick.png"></p>
+</li>
+</ul>
+<h3 id="绘制图片"><a href="#绘制图片" class="headerlink" title="绘制图片"></a><strong>绘制图片</strong></h3><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="title">creatImg</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">       <span class="keyword">const</span> imageUrl = <span class="keyword">new</span> Image();</span><br><span class="line">       imageUrl.setAttribute(<span class="string">&#x27;crossOrigin&#x27;</span>, <span class="string">&#x27;Anonymous&#x27;</span>); <span class="comment">// 图片跨域</span></span><br><span class="line">       imageUrl.src = object.url;</span><br><span class="line">       imageUrl.onload = <span class="function">() =&gt;</span> &#123;</span><br><span class="line">           <span class="keyword">const</span> imageBg = <span class="keyword">new</span> fabric.Image(imageUrl, &#123;</span><br><span class="line">               angle: <span class="number">90</span>, <span class="comment">// 旋转角度</span></span><br><span class="line">               hasBorders: <span class="literal">false</span>,  <span class="comment">// 去掉边框，可以正常操作</span></span><br><span class="line">               selectable: <span class="literal">false</span>,</span><br><span class="line">               hasControls: <span class="literal">false</span>,  <span class="comment">// 只能移动不能（编辑）操作</span></span><br><span class="line">               crossOrigin: <span class="string">&#x27;Anonymous&#x27;</span> <span class="comment">// 图片跨域</span></span><br><span class="line">           &#125;);</span><br><span class="line">           canvasCtx.add(imageBg)；</span><br><span class="line">       &#125;;</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="移动图片"><a href="#移动图片" class="headerlink" title="移动图片"></a>移动图片</h3><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="title">handleMoveCnavas</span>(<span class="params">options</span>)</span> &#123;</span><br><span class="line">        <span class="keyword">const</span> &#123;</span><br><span class="line">            x, y</span><br><span class="line">        &#125; = movePosition;</span><br><span class="line">        <span class="keyword">const</span> delta = <span class="keyword">new</span> fabric.Point(options.x - x, options.y - y);</span><br><span class="line">        canvasCtx.relativePan(delta);</span><br><span class="line">        movePosition = options;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="缩放事件"><a href="#缩放事件" class="headerlink" title="缩放事件"></a>缩放事件</h3><p>​           下图为在移动端的示意图</p>
+<p><img src="/images/fabric/scale.png"></p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// options --- 坐标点</span></span><br><span class="line"><span class="comment">// targetTouches 双指触发，长度为2</span></span><br><span class="line"><span class="function"><span class="title">handleDoubleFinger</span>(<span class="params">options</span>)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.setOperationType(<span class="string">&#x27;&#x27;</span>);</span><br><span class="line">        <span class="keyword">const</span> &#123;</span><br><span class="line">            clientX: finger1X,</span><br><span class="line">            clientY: finger1Y</span><br><span class="line">        &#125; = options.e.targetTouches[<span class="number">0</span>];</span><br><span class="line">        <span class="keyword">const</span> &#123;</span><br><span class="line">            clientX: finger2X,</span><br><span class="line">            clientY: finger2Y</span><br><span class="line">        &#125; = options.e.targetTouches[<span class="number">1</span>];</span><br><span class="line">        <span class="keyword">const</span> powX = (finger2X - finger1X) * (finger2X - finger1X);</span><br><span class="line">        <span class="keyword">const</span> powY = (finger2Y - finger1Y) * (finger2Y - finger1Y);</span><br><span class="line">        <span class="comment">// 计算两个手指之间的距离</span></span><br><span class="line">        <span class="keyword">const</span> distance = <span class="built_in">Math</span>.sqrt(powX + powY);</span><br><span class="line">        <span class="comment">// 每次缩放的比例</span></span><br><span class="line">        <span class="keyword">let</span> ratio = -<span class="number">0.05</span>;</span><br><span class="line">        <span class="keyword">if</span> (distance &gt; preDistance) &#123;</span><br><span class="line">            ratio = <span class="number">0.05</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        preDistance = distance;</span><br><span class="line">        <span class="keyword">const</span> x = scaleCenter.x || (<span class="built_in">Math</span>.abs(finger1X + finger2X)) / <span class="number">2</span>;</span><br><span class="line">        <span class="keyword">const</span> y = scaleCenter.y || (<span class="built_in">Math</span>.abs(finger1Y + finger2Y)) / <span class="number">2</span>;</span><br><span class="line">        scaleCenter = &#123;</span><br><span class="line">            x, y</span><br><span class="line">        &#125;;</span><br><span class="line">        <span class="comment">// 计算当前缩放的大小</span></span><br><span class="line">        <span class="keyword">let</span> zoom = ratio + canvasCtx.getZoom(); <span class="comment">// 获取当前缩放比</span></span><br><span class="line">        zoom = <span class="built_in">Math</span>.max(<span class="number">0.5</span>, zoom);</span><br><span class="line">        zoom = <span class="built_in">Math</span>.min(<span class="number">3</span>, zoom);</span><br><span class="line">        <span class="keyword">const</span> zoomPoint = <span class="keyword">new</span> fabric.Point(x, y);</span><br><span class="line">        canvasCtx.zoomToPoint(zoomPoint, zoom);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="旋转保存"><a href="#旋转保存" class="headerlink" title="旋转保存"></a><strong>旋转保存</strong></h3><ul>
+<li><strong>旋转前</strong></li>
+</ul>
+<p><img src="/images/fabric/rotate.png"></p>
+<ul>
+<li><strong>旋转后</strong></li>
+</ul>
+<p><img src="/images/fabric/afterRotate.png"></p>
+<h3 id="总结："><a href="#总结：" class="headerlink" title="总结："></a><strong>总结：</strong></h3><p>​       <strong>fabric主要是canvas基础上的一次创新，能够解决很多原生canvas处理处理起来特别麻烦的地方，在整个实例对象下，</strong></p>
+<p><strong>有一个_objects数组，是用来存储在画板上的所有元素，元素的数量直接决定数组的长度，在启用撤销功能时，本质上是维护</strong></p>
+<p><strong>这个数组来实现。当然，Fabric的功能远不止这些，更深一层的理解需要日后不断的积累与总结。</strong></p>
+<h2 id="附录："><a href="#附录：" class="headerlink" title="附录："></a><strong>附录：</strong></h2><p>​     <strong>常用的一些API</strong></p>
+<p>​        add(object) 添加<br>​        insertAt(object,index) 添加<br>​        remove(object) 移除<br>​        forEachObject 循环遍历<br>​        getObjects() 获取所有对象<br>​        item(int) 获取子项<br>​        isEmpty() 判断是否空画板<br>​        size() 画板元素个数<br>​        fabric.util.drawDashedLine 绘制虚线<br>​        clear() 清空<br>​        renderAll() 重绘<br>​        requestRenderAll() 请求重新渲染<br>​        rendercanvas() 重绘画板?<br>​        getCenter().top/left 获取中心坐标<br>​        toDatalessJSON() 画板信息序列化成最小的json<br>​        toJSON() 画板信息序列化成json<br>​        moveTo(object,index) 移动<br>​        setCursor() 设置手势图标<br>​        getSelectionContext()获取选中的context<br>​        getSelectionElement()获取选中的元素<br>​        getActiveObject() 获取选中的对象<br>​        getActiveObjects() 获取选中的多个对象<br>​        discardActiveObject()取消当前选中对象<br>​        rotate() 设置旋转角度<br>​        setCoords() 设置坐标</p>
+<p>  <strong>fabric.js官方文档：</strong> [fabric.js官方文档]</p>
 ]]></content>
       <categories>
-        <category>webpack</category>
+        <category>canvas</category>
       </categories>
       <tags>
-        <tag>webpack</tag>
-        <tag>webpack-cli</tag>
-        <tag>webpack-dev-server</tag>
+        <tag>canvas</tag>
+        <tag>Fabric.js</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ECMAScript 简介</title>
+    <url>/2021/04/02/javascript/ECMAScript/</url>
+    <content><![CDATA[<h2 id="ECMA简介"><a href="#ECMA简介" class="headerlink" title="ECMA简介"></a>ECMA简介</h2><p>Ecma International是一家总部位于瑞士的非营利性协会，于1961年5月17日正式成立，是一家国际性会员制度的信息和电信标准组织，在欧洲制造、销售或开发计算机和电信系统的公司都可以申请成为会员。1994年之前，名为欧洲计算机制造商协会（European Computer Manufacturers Association）。因为计算机的国际化，组织的标准牵涉到很多其他国家，因此组织决定改名表明其国际性。现名称已不属于首字母缩略字，但保留了商标”Ecma”。其总部位于日内瓦，靠近其他标准制定组织的总部，例如国际电工委员会（IEC），国际标准化组织（ISO，涉及领域更为广泛，比如质量标准、安全标准、管理标准等）和国际电信联盟（ITU）。</p>
+<a id="more"></a>
+
+<p>ECMA国际的任务包括与有关组织合作开发通信技术和消费电子标准、鼓励准确的标准落实、和标准文件与相关技术报告的出版。涵盖了硬件，软件，通信，消费电子，媒体，存储和环境等相当广泛的标准化主题。</p>
+<p>技术工作由技术委员会（TC）和任务组（TG）进行。技术委员会或任务组处理特定领域或主题（例如编程语言）。</p>
+<p>编程语言是用于指示计算机或计算设备执行特定任务的词汇和语法规则集，由TC39（ECMAScript），TC49（C#，CLI，Eiffel）和TC52（Dart）开发。</p>
+<p><img src="/images/javascript/javascript-ECMAScript-1.png"></p>
+<p>其中负责制定ECMAScript标准的TC39还下分了两个任务组：TG1，TG2，分别负责ECMA-262标准，ECMA-402标准。</p>
+<ul>
+<li>TG1的主要任务是负责通用，跨平台，与供应商无关的编程语言ECMAScript（JavaScript）的标准化（ECMA-262）。包括语言本身的语法，语义，库和支持该语言的补充技术。</li>
+<li>TG2的主要工作或者说ECMA-402标准的主要内容是定义一系列需要适应不同人类语言和国家所使用的语言和文化惯例的ECMAScript对象的应用程序编程接口</li>
+</ul>
+<h2 id="ECMAScript简介"><a href="#ECMAScript简介" class="headerlink" title="ECMAScript简介"></a>ECMAScript简介</h2><p>ECMAScript是由网景（Netscape）通信公司的布兰登·艾克开发的一种脚本语言的标准化规范；最初命名为Mocha，后来改名为LiveScript，最后重新命名为JavaScript。1995年12月，升阳与网景联合发表了JavaScript。1996年11月，网景公司将JavaScript提交给欧洲计算机制造商协会（Ecma）进行标准化。ECMA-262的第一个版本于1997年6月被Ecma组织采纳。ECMAScript是由ECMA-262标准化的脚本语言的名称。</p>
+<p>尽管JavaScript和JScript（微软实现的用于低版本IE的脚本语言，主要区别在于DOM部分）与ECMAScript相容，但包含超出ECMAScript的功能。可以通俗地认为JS是ECMAScript的实现与扩展，ECMAScript是JS的标准与规范。</p>
+<p>任何人都可以参与ECMAScript标准的建议与修改，但必须经过五个阶段，每个阶段的递进都由TC39审阅评判：</p>
+<table>
+<thead>
+<tr>
+<th>阶段</th>
+<th>名称</th>
+<th>目的或结果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>stage 0</td>
+<td>Strawperson（意向阶段）</td>
+<td>允许输入规范，收集意向</td>
+</tr>
+<tr>
+<td>stage 1</td>
+<td>Proposal（提议阶段）</td>
+<td>提出允许添加的理由或案例，描述方案，确认潜在的挑战</td>
+</tr>
+<tr>
+<td>stage 2</td>
+<td>Draft（草案阶段）</td>
+<td>用形式化语言（用精确的数学或机器可处理的公式定义的语言）精确描述其语法和语义</td>
+</tr>
+<tr>
+<td>stage 3</td>
+<td>Candidate（候选阶段）</td>
+<td>收集来自用户或者其它实施过程带来的（比如浏览器厂商等）的反馈信息，指出进一步的改进</td>
+</tr>
+<tr>
+<td>stage 4</td>
+<td>Finished（定案阶段）</td>
+<td>表明添加的内容已准备好包含在正式的ECMAScript标准中</td>
+</tr>
+</tbody></table>
+<h2 id="ECMAScript标准迭代历史"><a href="#ECMAScript标准迭代历史" class="headerlink" title="ECMAScript标准迭代历史"></a>ECMAScript标准迭代历史</h2><table>
+<thead>
+<tr>
+<th>时间</th>
+<th>版本</th>
+<th>变化</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1996.11-1997.06</td>
+<td>ECMA-262 1st edition</td>
+<td>该ECMA标准提交给ISO/IEC JTC 1</td>
+</tr>
+<tr>
+<td>-1998.06</td>
+<td>ECMA-262 2nd edition</td>
+<td>基本没什么变化，仅仅是编辑整理使其与ISO/IEC 16262标准一致</td>
+</tr>
+<tr>
+<td>-1999.12</td>
+<td>ECMA-262 3rd edition</td>
+<td>引入了强大的正则表达式、更好的字符串处理、新的控制语句、try/catch异常处理、更严格的错误定义、数字输出格式以及对未来语言增长的微小更改。该版标志着ECMAScript成为了一门真正的编程语言，一门基本上所有Web浏览器都支持的编程语言，为第四版的开发作了大量工作</td>
+</tr>
+<tr>
+<td>-2008.07</td>
+<td>ECMA-262 4th edition（不存在）</td>
+<td>该版本在08年7月发布前夭折了，被完全废弃，其中一些内容被纳入了第六版的开发中</td>
+</tr>
+<tr>
+<td>-2009.12</td>
+<td>ECMA-262 5th edition</td>
+<td>编纂了事实上对浏览器实现中常见的语言规范的解释（澄清歧义），并增加了对自第三版出版以来出现的新功能的支持：包括访问器属性、对象的创建和检查、属性的内部属性的程序控制（<code>defineProperty</code>等）、额外的数组操作方法、对JSON对象编码格式的支持以及提供增强错误检查和程序安全性的严格模式。</td>
+</tr>
+<tr>
+<td>-2011.06</td>
+<td>ECMA-262 5.1th edition</td>
+<td>包含了细微的修改，被批准为国际标准ISO/IEC 16262:2011，后称es5</td>
+</tr>
+<tr>
+<td>-2015.06</td>
+<td>ECMA-262 6th edition</td>
+<td>该版重点发展始于2009年，因为第五版正在准备出版。然而，这之前的重大实验和语言增强设计的努力可以追溯到1999年出版的第三版。真实意义上说，第六版的完成是十五年努力的结晶。这个版本的目标包括更好地支持大型应用程序、创建库以及将ECMAScript用作其他语言的编译目标。它的一些主要扩展包括模块、类声明、块作用域、迭代器和生成器、异步编程promise、解构模式和适当的尾部调用。ECMAScript内置库被扩展以支持额外的数据抽象，包括二进制数值的映射、集合和数组，以及对字符串和正则表达式中的Unicode补充字符的额外支持。实例也可以通过子类进行扩展。该版为规范化增量语言和库扩展提供了基础，后称es6或es2015</td>
+</tr>
+<tr>
+<td>-2016.06</td>
+<td>ECMA-262 7th edition</td>
+<td>该版为根据Ecma TC39新的年度发布节奏和开放开发流程发布的第一个ECMAScript版本。在这个标准的开发过程中，提交了数百个pull请求和问题，代表了数千个bug修复、编辑修复和其他改进。此外，开发了许多软件工具来帮助这项工作，包括Ecmarkup（理解为自定义html标签）、Ecmarkdown和Grammarkdown。ES2016还包括对新的求幂运算符（**）的支持，并为数组的原型添加<code>includes</code>方法。</td>
+</tr>
+<tr>
+<td>-2017.06</td>
+<td>ECMA-262 8th edition</td>
+<td>该版引入了异步函数（<code>async/await</code>）、共享内存（Web Worker）和<code>Atomics</code>对象（为线程通信提供一系列方法）。异步函数通过为promise返回函数提供语法来改善异步编程体验。共享内存和<code>Atomics</code>引入了一种新的内存模型，允许多个线程使用<code>Atomics</code>操作进行通信，即使在并行cpu上，<code>Atomics</code>操作也能确保定义良好的执行顺序。它还包括对象的新静态方法：<code>Object.values</code>, <code>Object.entries</code>，和<code>Object.getOwnPropertyDescriptors</code>.</td>
+</tr>
+<tr>
+<td>-2018.06</td>
+<td>ECMA-262 9th edition</td>
+<td>该版本通过AsyncIterator协议和异步生成器引入了对异步迭代的支持（<code>for wait of</code>）。它还包括四个新的正则表达式特性：dotAll标志（<code>s</code>flag，解决<code>.</code>字符对换行符<code>\n</code>回车符<code>\r</code>不匹配问题）、命名捕获组（解决日期表示法不统一问题）、Unicode属性转义（例如用<code>\p&#123;Number&#125;</code>匹配所有的Unicode数字）和look-behind（后行断言）。最后，它包括对象扩展属性（对象rest写法）。</td>
+</tr>
+<tr>
+<td>-2019.06</td>
+<td>ECMA-262 10th edition</td>
+<td>该版本引入了一些新的内置函数：<code>flat</code>（数组降维）和<code>flatMap</code>（<code>map</code> + <code>flat</code>）。<code>Object.fromEntries</code>与<code>Object.entries</code>为互逆操作，<code>trimStart</code>和<code>trimEnd</code>字符串原型方法作为广泛实施但非标准的更好的替代方案（代替<code>trimLeft</code>与<code>trimRight</code>）。此外，它还对语法和语义进行了一些小的更新：更新的语法包括可选的catch绑定参数（catch方法可以不需要传入参数），并允许字符串文本中的U+2028（行分隔符）和U+2029（段落分隔符）与JSON一致（待补充解释）。其他更新包括要求<code>Array.prototype.sort</code>必须是稳定排序，要求<code>JSON.stringify</code>返回格式良好的UTF-8而不考虑输入(超出Unicode范围输出转义序列，原先会直接输出字符串)，并应需澄清<code>Function.prototype.toString</code>返回相应的原始源文本或标准占位符（包含注释及空格等）。</td>
+</tr>
+<tr>
+<td>-2020.06</td>
+<td>ECMA-262 11th edition</td>
+<td>该版本引入了字符串的<code>matchAll</code>方法，为全局正则表达式生成的所有匹配对象生成迭代器；<code>import()</code>，一种使用动态说明符异步导入模块的语法；<code>BigInt</code>，一种用于处理任意精度整数的新数字原语（末尾加个n，不限制位数）；<code>Promise.allSettled</code>, 一个新的不短路的Promise组合器（解决<code>promise.all</code>因某个请求失败导致整体无法渲染的问题，还能获取到所有请求的结果数组）；<code>globalThis</code>，一种访问全局this值的通用方法；<code>export * as ns from &#39;module&#39;</code>，模块内专用语法，先引入再导出（并非真正引入）；<code>for-in</code>循环顺序的标准化；<code>import.meta</code>, 返回一个对象，只能在模块内部使用，可能包含有关模块的上下文信息（例如当前模块的url）；以及添加两个新的语法特性以改进对“空”值（空或未定义）的处理：空合并，值选择运算符（<code>??</code>，例：<code>0 ?? &#39;hello&#39;</code>返回0）；和可选链接（<code>?.</code>，例<code>user?.name</code>，user信息为空时返回<code>undefined</code>而非报错），一种属性访问和函数调用运算符，当要访问/调用的值为空时，该运算符会短路。（非常有用的特性，用了以后再也不会出现无法预料的<code>can&#39;t read property &#39;**&#39; of undefined/null</code>）</td>
+</tr>
+</tbody></table>
+<p>文中不足之处请指正。</p>
+<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><blockquote>
+<p><font size=2>[1] <a href="https://www.iso.org/">https://www.iso.org/</a>[EB/OL].ISO</font><br><font size=2>[2] <a href="https://www.ecma-international.org/">https://www.ecma-international.org/</a>[EB/OL].ecma</font><br><font size=2>[3] ECMAScript[EB/OL].维基百科,2021-02-14.</font><br><font size=2>[4] TC39.<a href="https://tc39.es/process-document/">https://tc39.es/process-document/</a>[EB/OL].<a href="https://tc39.es/">https://tc39.es</a></font><br><font size=2>[5] <a href="https://262.ecma-international.org/11.0/#sec-intro">https://262.ecma-international.org/11.0/#sec-intro</a>[EB/OL].ecma</font></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>JavaScript</category>
+      </categories>
+      <tags>
+        <tag>ECMA</tag>
+        <tag>ECMAScript</tag>
+        <tag>JavaScript</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>JavaScript 作用域</title>
+    <url>/2021/04/02/javascript/scope/</url>
+    <content><![CDATA[<h2 id="相关定义"><a href="#相关定义" class="headerlink" title="相关定义"></a>相关定义</h2><p><strong>作用域：</strong>js引擎在何处及如何查找变量（标识符）的一套规则</p>
+<a id="more"></a>
+
+]]></content>
+      <categories>
+        <category>JavaScript</category>
+      </categories>
+      <tags>
+        <tag>JavaScript</tag>
+        <tag>作用域</tag>
+        <tag>执行上下文</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>React Native工作原理</title>
+    <url>/2020/11/14/react-native/architecture/</url>
+    <content><![CDATA[<p>React Native的主要作用是让开发者可以使用前端React的开发框架来开发可以在多个平台运行的应用。仅仅了解前端开发可以让我们快速搭建一款简单的App，但是深入了解了React Native的底层原理，可以帮助我们更好的定位开发中遇到的问题，和从多端的角度出发解决问题。</p>
+<a id="more"></a>
+<style>
+img{
+    width: 500px;
+    margin-left: 0px;
+}
+</style>
+<h2 id="React在浏览器运行原理"><a href="#React在浏览器运行原理" class="headerlink" title="React在浏览器运行原理"></a>React在浏览器运行原理</h2><p>在了解React Native的原理之前我们先简单回顾一下React和浏览器的工作原理:<br>Babel将React JSX语法糖编译成React.createElement表达式即虚拟DOM节点，然后利用虚拟DOM的Diff算法，对比出需要渲染的元素交由浏览器的渲染引擎渲染，从而形成丰富的浏览器页面。那么React Native是如何将React代码展示在不同平台上呢？</p>
+<h2 id="基于Bridge的架构原理"><a href="#基于Bridge的架构原理" class="headerlink" title="基于Bridge的架构原理"></a>基于Bridge的架构原理</h2><p>在0.59版本之前React Native使用的基于Bridge的架构方式<br><img src="/images/react-native/bridge.png" alt="基于Bridge的React Native架构图"><br>在开发阶段仍然是聚焦于React Components的开发，Babel会将代码编译成浏览器可识别的表达式，并打包成jsbundle文件存储于App设备本地或者存储于服务器（热更新机制）。</p>
+<p>打开App后，加载并解析jsbundle文件，在JavascriptCore中进行运行，这个地方Android和IOS的差异就是IOS原生就带有一个JavascriptCore而Android中需要重新加载，所以这也造成了Android的初始化过程会比IOS慢一些。</p>
+<p>运行时需要将前端的组件渲染成Native端的视图，首先如同React中的虚拟DOM一样，在Bridge中也会构造出一个Shadow Tree，然后通过Yoga布局引擎将Flex布局转换为Native的布局，最终交由UIManager在Native端完成组件的渲染。</p>
+<p>Bridge架构对于开发者来说很好的屏蔽了各个平台之间的差异，相对于WebView也能够提供不错的近原生操作体验。但是Javascript与Native之间的通信过度的依赖Bridge，当交互频繁或数据量很大的时候可能造成白屏或事件阻塞。而且JSON的序列化操作的效率也比较低。在Flutter的压力下，不改变意味着用户的流失，那么重构后的React Native是怎么优化的呢？</p>
+<h2 id="基于JSI的新架构原理"><a href="#基于JSI的新架构原理" class="headerlink" title="基于JSI的新架构原理"></a>基于JSI的新架构原理</h2><p><img src="/images/react-native/JSI.png" alt="基于JSI的React Native架构图"><br>首先解释下新架构下的几个新概念<br><strong>JSI（Javascript Interface)</strong> ：JSI的作用就是让Javascript可以持有C++对象的引用，并调用其方法，同时Native端（Android、IOS）均支持对于C++的支持。从而避免了使用Bridge对JSON的序列化与反序列化，实现了Javascript与Native端直接的通信。<br>JSI还屏蔽了不同浏览器引擎之间的差异，允许前端使用不同的浏览器引擎，因此Facebook针对Android 需要加载JavascriptCore的问题，研发了一个更适合Android的开源浏览器引擎Hermes。</p>
+<p><strong>CodeGen</strong>：作为一个工具来自动化的实现Javascript和Native端的兼容性，它可以让开发者创建JS的静态类，以便Native端（Fabric和Turbo Modules）可以识别它们，并且避免每次都校验数据，将会带来更好的性能，并且减少传输数据出错的可能性。</p>
+<p><strong>Fabric</strong>：相当于之前的UIManager的作用，不同之处在于旧架构下Native端的渲染需要完成一系列的”跨桥“操作，即React -&gt; Native -&gt; Shadow Tree -&gt; Native UI，新的架构下UIManager可以通过C++直接创建Shadow Tree大大提高了用户界面体验的速度。</p>
+<p><strong>TurboModules</strong>：旧架构下由于端与端之间的隔阂，运行时即便没有使用的模块也会被加载初始化，TurboModules允许Javascript代码仅在需要的时候才去加载对应的Native模块并保留对其直接的引用缩短了应用程序的启动时间。</p>
+<p>总结一下，旧架构中Bridge为React Native JS与Native交互的性能瓶颈，那么新架构的核心思想就是避免了通过Bridge将数据从JavaScript序列化到Native。<br><img src="/images/react-native/fire-bridge.gif" alt="烧桥gif图"></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>文章的内容参考了国内外一些大佬的文章，并加以总结归纳，刚开始接触React Native的伙伴理解起来可能有一些难度，如果觉得不是很好理解可以试着先跳过，待通过React Native实战之后回过来在来看这部分内容，或许能让你有更深刻的感悟。</p>
+<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ul>
+<li><a href="https://www.youtube.com/watch?v=52El0EUI6D0">React Native EU 2019: Emily Janzer - The New React Native</a></li>
+<li><a href="https://formidable.com/blog/2019/react-codegen-part-1/">Part One: React and Codegen</a></li>
+<li><a href="https://formidable.com/blog/2019/jsi-jsc-part-2/">Part Two: JSI and JSC</a></li>
+<li><a href="https://formidable.com/blog/2019/fabric-turbomodules-part-3/">Part Three: Fabric and TurboModules</a></li>
+<li><a href="https://formidable.com/blog/2019/lean-core-part-4/">Part Four: The New React Native Architecture Explained</a></li>
+<li><a href="http://www.ayqy.net/blog/react-native-new-architecture/">React Native架构演进</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>React-Native</category>
+      </categories>
+      <tags>
+        <tag>React-Native</tag>
+        <tag>Bridge</tag>
+        <tag>JSI</tag>
+        <tag>JSC</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>cookie详情解析</title>
+    <url>/2020/11/19/storage/cookie/</url>
+    <content><![CDATA[<p>最近在项目遇到了一些cookie的坑， 所以整体的总结一下cookie</p>
+<a id="more"></a>
+<h2 id="cookie和前端爱恨纠缠"><a href="#cookie和前端爱恨纠缠" class="headerlink" title="cookie和前端爱恨纠缠"></a>cookie和前端爱恨纠缠</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">在前端提到cookie，首先想到本地存储、最大4k、同源策略，然后呢？？？， cookie到底是什么呢?</span><br></pre></td></tr></table></figure>
+<p>接下来让我们一起去探究cookie</p>
+<p>一 、 获取cookie</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">通过 document.cookie 我们可以获取到cookie的内容，那我们获取到的cookie内容是什么样的呢？？？</span><br><span class="line"></span><br><span class="line">如图所示： 我们获取到的cookie是所有cookie的一个字符串结合</span><br></pre></td></tr></table></figure>
+<p><img src="/images/storage/getCookie.png"></p>
+<p>二 、 设置cookie</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">设置cookie也是通过 document.cookie 来完成</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 通过document.cookie设值时， 只能设置一个cookie的值</span><br><span class="line">document.cookie&#x3D;&#39;myname&#x3D;laihuamin;path&#x3D;&#x2F;;domain&#x3D;.baidu.com&#39;;</span><br></pre></td></tr></table></figure>
+
+<p>三、 在浏览器中查看cookie</p>
+<p><img src="/images/storage/browserCookie.png"></p>
+<p>四、 cookie的属性构成</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1. name (cookie的名称)</span><br><span class="line"></span><br><span class="line">一个唯一确定cookie的名称，cookie的名字一般都是经过encodeURIComponent编码后在进行设置，这样避免产生问题</span><br><span class="line"></span><br><span class="line">2. value (cookie的值)</span><br><span class="line">存储在cookie中的字符串值，一般都是经过encodeURIComponent编码后在进行设置，这样避免产生问题</span><br><span class="line"></span><br><span class="line">3. domain (cookie生效的域)</span><br><span class="line">cookie也是遵循同源策略的， 所以cookie的作用范围，只能是当前设置cookie的域以及它的子域，如果设置cookie时没有设置域名，那个默认是设置cookie时的当前域名</span><br><span class="line"></span><br><span class="line">4. path (cookie匹配域的路径)</span><br><span class="line"></span><br><span class="line">path这个属性默认是&#39;&#x2F;&#39;，这个值匹配的是web的路由，举个例子：</span><br><span class="line"></span><br><span class="line">比如： www.baidu.com&#x2F;blog</span><br><span class="line"></span><br><span class="line">就是匹配到  www.baidu.com&#x2F;blog 或者 www.baidu.com&#x2F;blogaa 或者 www.baidu.com&#x2F;blogbb</span><br><span class="line"></span><br><span class="line">5. cookie 有效期</span><br><span class="line"></span><br><span class="line">session : 表示cookie由浏览器默认存储，当浏览器关闭的时候自动删除cookie</span><br><span class="line"></span><br><span class="line">Expires: 表示一个未来的时间点，表示cookie到期的时间点</span><br><span class="line"></span><br><span class="line">Max-Age: 以秒为单位, 表示cookie的有效时长， 因为失效的cookie会被浏览器自动清除， 所以当Max-Age为0时，就表示删除cookie</span><br><span class="line"></span><br><span class="line">6. secure</span><br><span class="line"></span><br><span class="line">这是设置cookie安全的属性，当这个属性设置为true时，此cookie只会在https和ssl等安全协议下传输</span><br><span class="line"></span><br><span class="line">7. HttpOnly 值为boolean</span><br><span class="line"></span><br><span class="line">HttpOnly属性只能由服务端设置, HttpOnly设置为true后，前端不能通过js获取和设置cookie, 能有效的防止xss攻击</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="cookie和服务端的缘分"><a href="#cookie和服务端的缘分" class="headerlink" title="cookie和服务端的缘分"></a>cookie和服务端的缘分</h2><p>一、服务端设置cookie</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1. 服务端通过响应头上的Set-Cookie属性给客户端设置cookie， 如果要设置多个cookie，需要多写几个Set-Cookie</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>如图：</p>
+<p><img src="/images/storage/set-cookie.png"></p>
+]]></content>
+      <categories>
+        <category>cookie</category>
+      </categories>
+      <tags>
+        <tag>storage</tag>
+        <tag>cookie</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>React Native混合开发</title>
+    <url>/2021/01/05/react-native/mix-dev/</url>
+    <content><![CDATA[<p>在进行React Native开发的过程中，对于前端开发来说可以使用React技术栈实现UI和前端交互的功能，但是很多较复杂的功能最终的实现实际都是放到Native端来进行的，这种在使用React Native开发过程中既需要前端RN开发也需要Android、IOS Native端开发模式被称为混合开发。</p>
+<a id="more"></a>
+<style>
+img{
+    width: 400px;
+    margin-left: auto;
+}
+</style>
+<p><img src="/images/react-native/mix.png"></p>
+<h2 id="混合开发场景"><a href="#混合开发场景" class="headerlink" title="混合开发场景"></a>混合开发场景</h2><p>混合开发意味着开发团队不仅仅要掌握前端的开发的能力，还要有Android和IOS的技能，相信这对研发团队的要求是非常奢侈的。目前React Native相关的库也比较丰富了，大部分的功能相信都能在Github上找到对应的功能库，为开发者屏蔽了Native技术栈。但是难免有一些功能功能需要调用Native端的一些API：如微师App中对Gzip压缩文件的处理，播放视频、进入直播间等已有SDK的调用等功能。</p>
+<h2 id="Native端与RN代码交互"><a href="#Native端与RN代码交互" class="headerlink" title="Native端与RN代码交互"></a>Native端与RN代码交互</h2><p>Native端与RN的交互至少需要包含两个部分：</p>
+<ol>
+<li>RN主动调用Native模块，并通过Promise的方式返回模块执行的结果</li>
+<li>对于异步任务类型的方法，可以通过在RN端监听事件的方式，监听Native回调的事件</li>
+</ol>
+<h3 id="Android与RN代码交互"><a href="#Android与RN代码交互" class="headerlink" title="Android与RN代码交互"></a>Android与RN代码交互</h3><p>Android中React Native为我们提供ReactContextBaseJavaModule基类，我们只需要集成该基类，重写其中的getName方法，返回值为我们自定义模块的名字，最后包添加至MainApplication入口即完成一个自定义模块的添加。</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">// DemoPackage.java</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">DemoPackage</span> <span class="keyword">implements</span> <span class="title">ReactPackage</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> List&lt;ViewManager&gt; <span class="title">createViewManagers</span><span class="params">(ReactApplicationContext reactContext)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> Collections.emptyList();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> List&lt;NativeModule&gt; <span class="title">createNativeModules</span><span class="params">(</span></span></span><br><span class="line"><span class="function"><span class="params">            ReactApplicationContext reactContext)</span> </span>&#123;</span><br><span class="line">        List&lt;NativeModule&gt; modules = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line"></span><br><span class="line">        modules.add(<span class="keyword">new</span> DemoModule(reactContext));</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> modules;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// DemoModule.java</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">DemoModule</span> <span class="keyword">extends</span> <span class="title">ReactContextBaseJavaModule</span> </span>&#123;</span><br><span class="line">    ReactApplicationContext reactContext;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">DemoModule</span><span class="params">(ReactApplicationContext reactContext)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>(reactContext);</span><br><span class="line">        <span class="keyword">this</span>.reactContext = reactContext;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="meta">@ReactMethod</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">fun</span><span class="params">(String data, Promise promise)</span> </span>&#123;</span><br><span class="line">        promise.resolve(<span class="string">&quot;&#123;\&quot;data\&quot;: \&quot;&quot;</span>+data+<span class="string">&quot;\&quot;&#125;&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="meta">@ReactMethod</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">fun1</span><span class="params">(String data, Promise promise)</span> </span>&#123;</span><br><span class="line">        sendEvent(reactContext, <span class="string">&quot;ON_NATIVE&quot;</span>, <span class="string">&quot;&#123;\&quot;data\&quot;: \&quot;&quot;</span>+data+<span class="string">&quot;\&quot;&#125;&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">sendEvent</span><span class="params">(ReactContext reactContext, String eventName, <span class="meta">@Nullable</span> String params)</span> </span>&#123;</span><br><span class="line">        reactContext</span><br><span class="line">                .getJSModule(DeviceEventManagerModule.RCTDeviceEventEmitter.class)</span><br><span class="line">                .emit(eventName, params);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">getName</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&quot;DemoModule&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="IOS与RN代码交互"><a href="#IOS与RN代码交互" class="headerlink" title="IOS与RN代码交互"></a>IOS与RN代码交互</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F; DemoModule.h</span><br><span class="line">#import &lt;Foundation&#x2F;Foundation.h&gt;</span><br><span class="line">#import &lt;React&#x2F;RCTBridgeModule.h&gt;</span><br><span class="line">#import &lt;React&#x2F;RCTEventEmitter.h&gt;</span><br><span class="line">@interface DemoModule : RCTEventEmitter &lt;RCTBridgeModule&gt;</span><br><span class="line">@end</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; DemoModule.m</span><br><span class="line">#import &lt;Foundation&#x2F;Foundation.h&gt;</span><br><span class="line">#import &quot;AppDelegate.h&quot;</span><br><span class="line">#import &quot;DemoModule.h&quot;</span><br><span class="line">#import &lt;React&#x2F;RCTBridgeModule.h&gt;</span><br><span class="line">#import &lt;UIKit&#x2F;UIKit.h&gt;</span><br><span class="line">@implementation DemoModule</span><br><span class="line"></span><br><span class="line">RCT_EXPORT_MODULE();</span><br><span class="line">- (NSArray&lt;NSString *&gt; *)supportedEvents &#123;</span><br><span class="line">  return @[@&quot;ON_NATIVE&quot;];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">RCT_REMAP_METHOD(fun, fun:</span><br><span class="line">  (NSString *)data</span><br><span class="line">  resolver:(RCTPromiseResolveBlock)resolve</span><br><span class="line">  rejecter:(RCTPromiseRejectBlock)reject)</span><br><span class="line">&#123;</span><br><span class="line">  NSString* result &#x3D; [NSString stringWithFormat:@&quot;&#123;\&quot;data\&quot;: \&quot;%@\&quot;&#125;&quot;, data];</span><br><span class="line">  resolve(result);</span><br><span class="line">&#125;</span><br><span class="line">RCT_EXPORT_METHOD(fun1:(NSString *)data) &#123;</span><br><span class="line">  NSString* result &#x3D; [NSString stringWithFormat:@&quot;&#123;\&quot;data\&quot;: \&quot;%@\&quot;&#125;&quot;, data];</span><br><span class="line">  [self.bridge enqueueJSCall:@&quot;RCTDeviceEventEmitter&quot;</span><br><span class="line">      method:@&quot;emit&quot;</span><br><span class="line">        args:@[@&quot;ON_NATIVE&quot;, result]</span><br><span class="line">  completion:NULL];</span><br><span class="line">&#125;</span><br><span class="line">@end</span><br></pre></td></tr></table></figure>
+
+<h3 id="RN与Android和IOS交互"><a href="#RN与Android和IOS交互" class="headerlink" title="RN与Android和IOS交互"></a>RN与Android和IOS交互</h3><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; NativeModules, DeviceEventEmitter &#125; <span class="keyword">from</span> <span class="string">&#x27;react-native&#x27;</span>;</span><br><span class="line"><span class="keyword">const</span> &#123; DemoModule &#125; = NativeModules;</span><br><span class="line">DeviceEventEmitter.addListener(<span class="string">&#x27;ON_NATIVE&#x27;</span>, <span class="function">(<span class="params">result</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="comment">// do something</span></span><br><span class="line">&#125;);</span><br><span class="line">DemoModule.fun(<span class="string">&#x27;test&#x27;</span>).then(<span class="function"><span class="params">result</span> =&gt;</span> &#123;</span><br><span class="line">  <span class="comment">// do something</span></span><br><span class="line">&#125;).catch(<span class="function"><span class="params">error</span> =&gt;</span> &#123;</span><br><span class="line">  <span class="comment">// error</span></span><br><span class="line">&#125;);</span><br><span class="line">DemoModule.fun1(<span class="string">&#x27;test&#x27;</span>);</span><br></pre></td></tr></table></figure>
+
+<h2 id="RN模块式混合开发"><a href="#RN模块式混合开发" class="headerlink" title="RN模块式混合开发"></a>RN模块式混合开发</h2><p>通过上述的方式可以实现RN与Native之间的代码交互，但是存在一个弊端就是，Native代码与项目混合在一起，没办法进行剥离和其他项目共享。每次添加一个Native功能模块都需要在基础框架代码上进行修改，非常不方便。<br>仔细想想我们会发现，我们通过NPM包引入的相关Native依赖，就不用每次修改框架代码，所以我们也可以将Native相关的功能剥离出来，封装成一个个NPM模块。通过这种模块式的混合开发，就可以解决上面的问题。</p>
+<h3 id="Create-React-Native-Module"><a href="#Create-React-Native-Module" class="headerlink" title="Create React Native Module"></a>Create React Native Module</h3><p>React Native从0.60版本开始支持AutoLink，我们不需要每次yarn install 之后再去执行react native link。在RN初始的Native有如下代码会自动的把相关的依赖引入到Native中：</p>
+<figure class="highlight ruby"><table><tr><td class="code"><pre><span class="line">IOS Podfile</span><br><span class="line">require_relative <span class="string">&#x27;../node_modules/react-native/scripts/react_native_pods&#x27;</span></span><br><span class="line">require_relative <span class="string">&#x27;../node_modules/@react-native-community/cli-platform-ios/native_modules</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">Android setting.gradle</span></span><br><span class="line"><span class="string">apply from: file(&quot;../node_modules/@react-native-community/cli-platform-android/native_modules.gradle&quot;); </span></span><br><span class="line"><span class="string">applyNativeModulesSettingsGradle(settings)</span></span><br></pre></td></tr></table></figure>
+<p>所以我们只需要按照特定的结构组织我们的模块就可以通过这种AutoLink的方式引入进来，Create React Native Module就可以帮助我们自动生成一个React Native模块模板。</p>
+<h3 id="安装依赖"><a href="#安装依赖" class="headerlink" title="安装依赖"></a>安装依赖</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install -g create-react-native-module</span><br></pre></td></tr></table></figure>
+
+<h3 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h3><p>创建一个带example的模块项目模板</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">create-react-native-module MyFancyLibrary --generate-example</span><br></pre></td></tr></table></figure>
+
+<h3 id="结构说明"><a href="#结构说明" class="headerlink" title="结构说明"></a>结构说明</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">├── LICENSE       &#x2F;&#x2F; 开源证书</span><br><span class="line">├── README.md     &#x2F;&#x2F; 说明文档</span><br><span class="line">├── android       &#x2F;&#x2F; Android工程代码</span><br><span class="line">├── example       &#x2F;&#x2F; 完整RN项目，已引入当前库</span><br><span class="line">├── index.js      &#x2F;&#x2F; RN暴露模块</span><br><span class="line">├── ios           &#x2F;&#x2F; IOS工程代码</span><br><span class="line">├── package.json </span><br><span class="line">└── react-native-gzip.podspec</span><br></pre></td></tr></table></figure>
+
+<h3 id="模块添加第三方依赖"><a href="#模块添加第三方依赖" class="headerlink" title="模块添加第三方依赖"></a>模块添加第三方依赖</h3><p>往往实现一个功能，需要引入一些Android和IOS的第三方依赖，那么如何在Create React Native Module中添加第三方依赖，并可以AutoLink呢？</p>
+<ul>
+<li>Android<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F; .&#x2F;android&#x2F;build.gradle</span><br><span class="line">dependencies &#123;</span><br><span class="line">    &#x2F;&#x2F;noinspection GradleDynamicVersion</span><br><span class="line">    implementation &#39;com.facebook.react:react-native:+&#39;  &#x2F;&#x2F; From node_modules</span><br><span class="line">    implementation &#39;commons-io:commons-io:2.6&#39;</span><br><span class="line">    implementation &#39;org.apache.commons:commons-compress:1.1&#39;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+<li>IOS<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F; .&#x2F;MODULE_NAME.podspec</span><br><span class="line">s.dependency &quot;NVHTarGzip&quot;</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<h3 id="发布至NPM库"><a href="#发布至NPM库" class="headerlink" title="发布至NPM库"></a>发布至NPM库</h3><p>为了方便使用我们需要把封装好的RN模块发布到NPM，在发布之前需要修改好你的package.json和Readme，具体的说明可以参考网上相关资料。准备好之后只需要在根目录下执行：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm login</span><br><span class="line">// 输入账户 密码 邮箱信息</span><br><span class="line">npm publish</span><br></pre></td></tr></table></figure>
+<p>发布成功后就可以在需要使用这个库的正常引入了</p>
+<h3 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h3><p>之前为了实现一个解压缩Gzip文件的功能，通过Create React Native Module创建了一个NPM包，可以供参考 <a href="https://github.com/FWC1994/react-native-gzip">react-native-gzip</a>。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>单纯使用React Native来开发一款APP总会收到各种各样的限制，混合开发为我们打开了新世界的大门，只要在Native端有相应的解决方案，我们都可以将其进行改造，在React Native中进行使用。但是也要求我们对IOS中使用的Objective-C 和Android的Java语言都有一定的了解，任重而道远。</p>
+]]></content>
+      <categories>
+        <category>React-Native</category>
+      </categories>
+      <tags>
+        <tag>React-Native</tag>
+        <tag>混合开发</tag>
       </tags>
   </entry>
   <entry>
@@ -182,6 +512,372 @@
       </categories>
       <tags>
         <tag>React-Native</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于webpack-cli近期发布最新版4.0.0带来的问题</title>
+    <url>/2020/10/22/webpack/issue-1/</url>
+    <content><![CDATA[<h2 id="问题现象"><a href="#问题现象" class="headerlink" title="问题现象"></a>问题现象</h2><p><code>webpack</code>项目启动<code>webpack-dev-server</code>服务失败，报Error: Cannot find module ‘webpack-cli/bin/config-yargs’</p>
+<a id="more"></a>
+
+<p><img src="/images/webpack/issue1-1.png"></p>
+<h2 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h2><p><code>webpack-cli</code>回退版本到3.3.12：</p>
+<blockquote>
+<p>npm install <a href="mailto:&#119;&#101;&#98;&#112;&#97;&#99;&#x6b;&#x2d;&#x63;&#x6c;&#x69;&#x40;&#x33;&#46;&#51;&#46;&#49;&#x32;">&#119;&#101;&#98;&#112;&#97;&#99;&#x6b;&#x2d;&#x63;&#x6c;&#x69;&#x40;&#x33;&#46;&#51;&#46;&#49;&#x32;</a> –save-dev</p>
+</blockquote>
+<p>其他诸如<code>webpack</code>、<code>webpack-dev-server</code>等用最新版本即可。</p>
+<h2 id="出现原因"><a href="#出现原因" class="headerlink" title="出现原因"></a>出现原因</h2><p><code>webpack-cli</code>几天前发布的最新版4.0.0版移除了yargs包，而紧挨4.0.0版本的上一正式版本3.3.12还在：</p>
+<p><img src="/images/webpack/issue1-2.png"></p>
+<p><img src="/images/webpack/issue1-3.png"></p>
+<p><img src="/images/webpack/issue1-4.png"></p>
+<h2 id="其他思考"><a href="#其他思考" class="headerlink" title="其他思考"></a>其他思考</h2><p><code>webpack-dev-server</code>的启动依赖了<code>webpack-cli</code>中的yargs配置模块，然而<code>webpack-dev-server</code>的最近一次更新已经快半年了，所以初步可认为是<code>webpack-cli</code>的问题。没有去深入研究过该模块相关的具体内容，尽管作者evilebottnawi本人说是<code>webpack-dev-server</code>的bug，会在不久后修复。可能依赖此模块一开始就是个错误的选择吧，所以最新版直接删掉了或者整合到了其他模块也不一定。利用<code>webpack serve</code>的方式启动<code>webpack-dev-server</code>也可以解决这个问题，只不过就不再有代码热更新的效果了。</p>
+<p><img src="/images/webpack/issue1-5.png"></p>
+<p><img src="/images/webpack/issue1-6.png"></p>
+]]></content>
+      <categories>
+        <category>webpack</category>
+      </categories>
+      <tags>
+        <tag>webpack</tag>
+        <tag>webpack-cli</tag>
+        <tag>webpack-dev-server</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>初始nginx</title>
+    <url>/2021/02/05/nginx/nginx-introduction/</url>
+    <content><![CDATA[<h3 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h3><p>Nginx (engine x) 是一款轻量级的 Web 服务器 、反向代理服务器及电子邮件（IMAP/POP3）代理服务器。</p>
+<p>由伊戈尔·赛索耶夫创建并于2004年首次公开发布。2011年成立同名公司以提供支持。2019年3月11日，Nginx公司被F5 Networks以6.7亿美元收购。</p>
+<p>Nginx是免费的开源软件，根据类BSD许可证的条款发布。一大部分Web服务器使用Nginx，通常作为负载均衡器。</p>
+<a id="more"></a>
+
+<p><img src="/images/nginx/nginx_server_history.png" alt="web server市场份额统计"></p>
+<p><img src="/images/nginx/nginx_market.png" alt="2020年10月web server市场份额"></p>
+<ul>
+<li>Apache：Apache 软件基金会的一个开放源码的网页服务器，可以在大多数计算机操作系统中运行。由于其多平台和安全性被广泛使用，是最流行的 Web服务器端软件之一。它快速、可靠并且可通过简单的 API 扩展，将 Perl/Python 等解释器编译到服务器中。</li>
+<li>Microsoft：微软提供的基于运行 Microsoft Windows 的互联网基本服务。互联网信息服务（Internet Information Services），简称 IIS。</li>
+<li>Google：谷歌自主开发的 Google Web Server，简称 gws 。</li>
+<li>nginx：由伊戈尔·赛索耶夫为俄罗斯访问量第二的 Rambler.ru 站点开发的，免费开源、轻量级、高性能 Web 服务器。</li>
+</ul>
+<h4 id="Tengine"><a href="#Tengine" class="headerlink" title="Tengine"></a>Tengine</h4><p><a href="http://tengine.taobao.org/">Tengine</a></p>
+<blockquote>
+<p>Tengine是由淘宝网发起的Web服务器项目。它在Nginx的基础上，针对大访问量网站的需求，添加了很多高级功能和特性。Tengine的性能和稳定性已经在大型的网站如淘宝网，天猫商城等得到了很好的检验。它的最终目标是打造一个高效、稳定、安全、易用的Web平台。</p>
+</blockquote>
+<h4 id="OpenResty"><a href="#OpenResty" class="headerlink" title="OpenResty"></a>OpenResty</h4><p><a href="https://openresty.org/cn/">OpenResty</a></p>
+<blockquote>
+<p>OpenResty® 是一个基于 Nginx 与 Lua 的高性能 Web 平台，其内部集成了大量精良的 Lua 库、第三方模块以及大多数的依赖项。用于方便地搭建能够处理超高并发、扩展性极高的动态 Web 应用、Web 服务和动态网关。</p>
+</blockquote>
+<blockquote>
+<p>OpenResty 通过汇聚各种设计精良的 Nginx 模块（主要由 OpenResty 团队自主开发），从而将 Nginx 有效地变成一个强大的通用 Web 应用平台。这样，Web 开发人员和系统工程师可以使用 Lua 脚本语言调动 Nginx 支持的各种 C 以及 Lua 模块，快速构造出足以胜任 10K 乃至 1000K 以上单机并发连接的高性能 Web 应用系统。</p>
+</blockquote>
+<blockquote>
+<p>OpenResty 的目标是让你的Web服务直接跑在 Nginx 服务内部，充分利用 Nginx 的非阻塞 I/O 模型，不仅仅对 HTTP 客户端请求,甚至于对远程后端诸如 MySQL、PostgreSQL、Memcached 以及 Redis 等都进行一致的高性能响应。</p>
+</blockquote>
+<h4 id="国内主流网站的使用情况"><a href="#国内主流网站的使用情况" class="headerlink" title="国内主流网站的使用情况"></a>国内主流网站的使用情况</h4><ul>
+<li><p>百度主页</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ curl -I https://www.baidu.com/</span><br><span class="line">HTTP/1.1 200 OK</span><br><span class="line">Accept-Ranges: bytes</span><br><span class="line">Cache-Control: private, no-cache, no-store, proxy-revalidate, no-transform</span><br><span class="line">Connection: keep-alive</span><br><span class="line">Content-Length: 277</span><br><span class="line">Content-Type: text/html</span><br><span class="line">Date: Tue, 24 Nov 2020 09:23:21 GMT</span><br><span class="line">Etag: <span class="string">&quot;575e1f5d-115&quot;</span></span><br><span class="line">Last-Modified: Mon, 13 Jun 2016 02:50:05 GMT</span><br><span class="line">Pragma: no-cache</span><br><span class="line">Server: bfe/1.0.8.18</span><br></pre></td></tr></table></figure></li>
+<li><p>淘宝主站</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ curl -I https://www.taobao.com/</span><br><span class="line">HTTP/2 200</span><br><span class="line">server: Tengine</span><br><span class="line">...</span><br></pre></td></tr></table></figure></li>
+<li><p>腾讯主站</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ curl -I https://www.qq.com/</span><br><span class="line">HTTP/2 200</span><br><span class="line">date: Tue, 24 Nov 2020 09:26:35 GMT</span><br><span class="line">content-type: text/html; charset=GB2312</span><br><span class="line">server: squid/3.5.24</span><br><span class="line">...</span><br></pre></td></tr></table></figure></li>
+<li><p>腾讯邮箱</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ curl -I https://mail.qq.com/</span><br><span class="line">HTTP/2 200</span><br><span class="line">server: nginx</span><br><span class="line">...</span><br></pre></td></tr></table></figure></li>
+<li><p>新浪</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ curl -I https://sina.com/</span><br><span class="line">HTTP/1.1 200 OK</span><br><span class="line">Server: nginx/1.13.7</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>头条</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ curl -I https://www.toutiao.com/</span><br><span class="line">HTTP/2 200</span><br><span class="line">server: Tengine</span><br><span class="line">...</span><br></pre></td></tr></table></figure></li>
+<li><p>京东</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ curl -I https://www.jd.com/</span><br><span class="line">HTTP/1.1 200 OK</span><br><span class="line">Server: nginx</span><br><span class="line">...</span><br></pre></td></tr></table></figure></li>
+<li><p>美团</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ curl -I https://www.meituan.com/</span><br><span class="line">HTTP/1.1 302 Moved Temporarily</span><br><span class="line">Server: openresty</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<h4 id="为什么选择-nginx？"><a href="#为什么选择-nginx？" class="headerlink" title="为什么选择 nginx？"></a>为什么选择 nginx？</h4><ul>
+<li><p>更快</p>
+<ul>
+<li>正常情况下，单次次请求的响应更快</li>
+<li>高并发情况下，相比其他服务器响应更快</li>
+</ul>
+</li>
+<li><p>高扩展性</p>
+<p>nginx 由不同层次，不同功能，不同类型的低耦合的模块组成。</p>
+</li>
+<li><p>高可靠性</p>
+<p>Master/Wokr工作模式</p>
+</li>
+<li><p>低内存消耗</p>
+<p>一般情况下，10000个非活跃的HTTP keep-alive连接在nginx中仅消耗2.5MB内存。</p>
+</li>
+<li><p>单机支持10w以上的并发连接</p>
+<p>理论上，Nginx支持的并发连接上限取决于内存，10w远未封顶。</p>
+</li>
+<li><p>热部署</p>
+</li>
+<li><p>最自由的BSD协议</p>
+</li>
+</ul>
+<h4 id="正向代理"><a href="#正向代理" class="headerlink" title="正向代理"></a>正向代理</h4><p><img src="/images/nginx/forward_proxy.png" alt="正向代理"></p>
+<p>正向代理是一个位于客户端和目标服务器之间的服务器(代理服务器)，为了从目标服务器取得内容，客户端向代理服务器发送一个请求并指定目标，然后代理服务器向目标服务器转交请求并将获得的内容返回给客户端。</p>
+<p>为什么要使用正向代理：</p>
+<ul>
+<li><p>突破访问限制</p>
+<p>比如我们日常使用VPN来访问国外网站</p>
+</li>
+<li><p>提高访问速度</p>
+<p>通常代理服务器都设置一个较大的硬盘缓冲区，会将部分请求的响应保存到缓冲区中，当其他用户再访问相同的信息时， 则直接由缓冲区中取出信息，传给用户，以提高访问速度。</p>
+</li>
+<li><p>隐藏客户端真实IP</p>
+</li>
+</ul>
+<h4 id="反向代理"><a href="#反向代理" class="headerlink" title="反向代理"></a>反向代理</h4><p><img src="/images/nginx/reverse_proxy.png" alt="反向代理"></p>
+<p>反向代理是指以代理服务器来接受internet上的连接请求，然后将请求转发给内部网络上的服务器，并将从服务器上得到的结果返回给internet上请求连接的客户端，此时代理服务器对外就表现为一个反向代理服务器。</p>
+<p>为什么使用反向代理?</p>
+<ul>
+<li>保护和隐藏原始资源服务器</li>
+<li>加密和SSL加速</li>
+<li>通过缓存静态资源，加速Web请求</li>
+<li>实现负载均衡</li>
+</ul>
+<h4 id="正向代理与反向代理的区别"><a href="#正向代理与反向代理的区别" class="headerlink" title="正向代理与反向代理的区别"></a>正向代理与反向代理的区别</h4><ul>
+<li><p>正向代理和反向代理的区别在于代理的对象不同。正向代理代理的是客户端，反向代理代理的是服务端。</p>
+</li>
+<li><p>正向代理一般是在客户端架设，比如安装代理软件等，反向代理一般是服务端架设。</p>
+</li>
+<li><p>正向代理中，服务器不知道真正的客户端到底是谁，以为访问自己的就是真实的客户端。而在反向代理中，客户端不知道真正的服务器是谁，以为自己访问的就是真实的服务器</p>
+</li>
+<li><p>正向代理和反向代理的作用和目的不同。正向代理主要是用来解决访问限制问题。而反向代理则是提供负载均衡、安全防护等作用。二者均能提高访问速度。</p>
+</li>
+</ul>
+<h4 id="负载均衡"><a href="#负载均衡" class="headerlink" title="负载均衡"></a>负载均衡</h4><h3 id="nginx-进程模型"><a href="#nginx-进程模型" class="headerlink" title="nginx 进程模型"></a>nginx 进程模型</h3><p><img src="/images/nginx/nginx_model.png" alt="nginx_model"></p>
+<h3 id="nginx-常用命令"><a href="#nginx-常用命令" class="headerlink" title="nginx 常用命令"></a>nginx 常用命令</h3><table>
+<thead>
+<tr>
+<th>参数</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>-?,-h</td>
+<td>this help</td>
+</tr>
+<tr>
+<td>-v</td>
+<td>show version and exit</td>
+</tr>
+<tr>
+<td>-V</td>
+<td>show version and configure options then exit</td>
+</tr>
+<tr>
+<td>-t</td>
+<td>test configuration and exit</td>
+</tr>
+<tr>
+<td>-T</td>
+<td>test configuration, dump it and exit</td>
+</tr>
+<tr>
+<td>-q</td>
+<td>suppress non-error messages during configuration testing</td>
+</tr>
+<tr>
+<td>-s signal</td>
+<td>send signal to a master process: stop, quit, reopen, reload</td>
+</tr>
+<tr>
+<td>-p prefix</td>
+<td>set prefix path (default: /etc/nginx/)</td>
+</tr>
+<tr>
+<td>-c filename</td>
+<td>set configuration file (default: /etc/nginx/nginx.conf)</td>
+</tr>
+<tr>
+<td>-g directives</td>
+<td>set global directives out of configuration file</td>
+</tr>
+</tbody></table>
+<h3 id="nginx模块"><a href="#nginx模块" class="headerlink" title="nginx模块"></a>nginx模块</h3><p>Nginx是模块化架构的服务，丰富的模块，松散耦合。</p>
+<table>
+<thead>
+<tr>
+<th>模块名称</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>内核模块</td>
+<td>实现了底层的通讯协议，为其他模块/进程构建运行环境、协作基础，打开listen 的端口，启动worker进程</td>
+</tr>
+<tr>
+<td>HTTP/Mail模块</td>
+<td>两个特殊模块，位于内核模块和各功能模块间；在内核模块之上实现了另一层的抽象；处理HTTP/MAIL协议事件；确保调用功能模块顺序正确。</td>
+</tr>
+<tr>
+<td>Event模块</td>
+<td>负责监听accept后建立的连接，对读写事件进行添加删除；与非阻塞 I/O 模型结合使用；支持select/poll/epoll/kqueue等；注意惊群效应</td>
+</tr>
+<tr>
+<td>Handler模块</td>
+<td>负责接受客户端请求并产生输出；通过配置文件中location指令配置 content handler 模块。</td>
+</tr>
+<tr>
+<td>Filter模块</td>
+<td>负责输出内容处理，修改输出内容；Fiter模块在获取回复内容之后，向用户发送响应之前，执行处理动作；调用顺序在编译时就确定了。</td>
+</tr>
+<tr>
+<td>Upstream模块</td>
+<td>实现反向代理的功能，负责将请求转发到后端服务器上，并读取响应，发回客户端；跨越单机的限制，完成网络数据的接收、处理和转发。</td>
+</tr>
+<tr>
+<td>LoadBalancer模块</td>
+<td>根据配置指定算法，在众多的后端服务器中选择一个，完成请求的转发服务器</td>
+</tr>
+</tbody></table>
+<h3 id="nginx配置文件"><a href="#nginx配置文件" class="headerlink" title="nginx配置文件"></a>nginx配置文件</h3><h4 id="demo"><a href="#demo" class="headerlink" title="demo"></a>demo</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">user  nginx;</span><br><span class="line">worker_processes  1;</span><br><span class="line"></span><br><span class="line">error_log  /var/<span class="built_in">log</span>/nginx/error.log warn;</span><br><span class="line">pid        /var/run/nginx.pid;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">events &#123;</span><br><span class="line">    worker_connections  1024;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">http &#123;</span><br><span class="line">    include       /etc/nginx/mime.types;</span><br><span class="line">    default_type  application/octet-stream;</span><br><span class="line"></span><br><span class="line">    log_format  main  <span class="string">&#x27;$remote_addr - $remote_user [$time_local] &quot;$request&quot; &#x27;</span></span><br><span class="line">                      <span class="string">&#x27;$status $body_bytes_sent &quot;$http_referer&quot; &#x27;</span></span><br><span class="line">                      <span class="string">&#x27;&quot;$http_user_agent&quot; &quot;$http_x_forwarded_for&quot;&#x27;</span>;</span><br><span class="line"></span><br><span class="line">    access_log  /var/<span class="built_in">log</span>/nginx/access.log  main;</span><br><span class="line"></span><br><span class="line">    sendfile        on;</span><br><span class="line">    <span class="comment">#tcp_nopush     on;</span></span><br><span class="line"></span><br><span class="line">    keepalive_timeout  65;</span><br><span class="line"></span><br><span class="line">    <span class="comment">#gzip  on;</span></span><br><span class="line"></span><br><span class="line">    include /etc/nginx/conf.d/*.conf;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>第一部分 全局块<br>主要设置一些影响 nginx 服务器整体运行的配置指令。<br>比如： worker_processes 1; ， worker_processes 值越大，可以支持的并发处理量就越多。</li>
+<li>第二部分 events块<br>events 块涉及的指令主要影响Nginx服务器与用户的网络连接。<br>比如： worker_connections 1024; ，支持的最大连接数。</li>
+<li>第三部分 http块<br>http 块又包括 http 全局块和 server 块，是服务器配置中最频繁的部分，包括配置代理、缓存、日志定义等绝大多数功能。<br>server块：配置虚拟主机的相关参数。<br>location块：配置请求路由，以及各种页面的处理情况。</li>
+</ul>
+<h4 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h4><ul>
+<li>配置文件由指令与指令块构成</li>
+<li>每条指令以;分号结尾，指令与参数间以空格符合分割</li>
+<li>指令块以{} 大括号将多条指令组织在一起</li>
+<li>include 语句允许组合多个配置文件以提升可维护性</li>
+<li>使用 # 符号添加注释，提高可读性</li>
+<li>使用 $ 符号使用变量</li>
+<li>部分指令的参数支持正则表达式</li>
+</ul>
+<h4 id="nginx配置构成"><a href="#nginx配置构成" class="headerlink" title="nginx配置构成"></a>nginx配置构成</h4><table>
+<thead>
+<tr>
+<th>域名称</th>
+<th>域类型</th>
+<th>域说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>main</td>
+<td>全局域</td>
+<td>Nginx 的根级别指令区域。该区域的配置指令是全局有效的，该指令名为隐性显示，nginx.conf 的整个文件内容都写在该指令域中</td>
+</tr>
+<tr>
+<td>events</td>
+<td>指令域</td>
+<td>Nginx 事件驱动相关的配置指令域</td>
+</tr>
+<tr>
+<td>http</td>
+<td>指令域</td>
+<td>Nginx HTTP 核心配置指令域，包含客户端完整 HTTP 请求过程中每个过程的处理方法的配置指令</td>
+</tr>
+<tr>
+<td>upstream</td>
+<td>指令域</td>
+<td>用于定义被代理服务器组的指令区域，也称“上游服务器”</td>
+</tr>
+<tr>
+<td>server</td>
+<td>指令域</td>
+<td>Nginx 用来定义服务 IP、绑定端口及服务相关的指令区域</td>
+</tr>
+<tr>
+<td>location</td>
+<td>指令域</td>
+<td>对用户 URI 进行访问路由处理的指令区域</td>
+</tr>
+<tr>
+<td>stream</td>
+<td>指令域</td>
+<td>Nginx 对 TCP 协议实现代理的配置指令域</td>
+</tr>
+<tr>
+<td>types</td>
+<td>指令域</td>
+<td>定义被请求文件扩展名与 MIME 类型映射表的指令区域</td>
+</tr>
+<tr>
+<td>if</td>
+<td>指令域</td>
+<td>按照选择条件判断为真时使用的配置指令域</td>
+</tr>
+</tbody></table>
+<ul>
+<li><p>全局块</p>
+<p>从配置文件开始到events之间的模块配置，配置影响nginx全局的指令。一般有运行nginx服务器的用户组，nginx进程pid存放路径，日志存放路径，配置文件引入，允许生成worker process数等。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">user</span><br><span class="line">work_process: auto | 4;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>events</p>
+<p>events 主要影响 nginx 服务器与用户网络的链接。有每个进程的最大连接数，选取哪种事件驱动模型处理连接请求，是否允许同时接受多个网路连接，开启多个网络连接序列化等</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">events &#123;</span><br><span class="line">  use epoll;</span><br><span class="line">  work_connections 65535;</span><br><span class="line">  <span class="comment"># ...</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>http</p>
+<p>nginx中配置最频繁的部分。可以嵌套多个server，配置代理，缓存，日志定义等绝大多数功能和第三方模块的配置。</p>
+<p>http 块又包括 http 全局块和 server 块，是服务器配置中最频繁的部分，包括配置代理、缓存、日志定义等绝大多数功能。<br>server块：配置虚拟主机的相关参数。<br>location块：配置请求路由，以及各种页面的处理情况。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">http &#123;</span><br><span class="line">  include       mime.types;</span><br><span class="line">  default_type  application/octet-stream;</span><br><span class="line">  upstream node_cluster &#123;</span><br><span class="line">    server 10.16.48.158:8080;</span><br><span class="line">    server 10.16.48.158:8081;</span><br><span class="line">    server 10.16.48.158:8082;</span><br><span class="line">  &#125;</span><br><span class="line">  server &#123;</span><br><span class="line">    server_name docker.test;</span><br><span class="line">    listen 80;</span><br><span class="line">    index index.html index.htm;</span><br><span class="line">    root /apps/;</span><br><span class="line">    location ~ /docker/ &#123;</span><br><span class="line">      proxy_pass http://node_cluster;</span><br><span class="line">      proxy_http_version 1.1;</span><br><span class="line">      proxy_set_header Upgrade <span class="variable">$http_upgrade</span>;</span><br><span class="line">      proxy_set_header Connection <span class="string">&#x27;upgrade&#x27;</span>;</span><br><span class="line">      proxy_set_header Host <span class="variable">$host</span>;</span><br><span class="line">      proxy_cache_bypass <span class="variable">$http_upgrade</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    access_log  /var/<span class="built_in">log</span>/nginx/docker.test.log;</span><br><span class="line">    error_log  /var/<span class="built_in">log</span>/nginx/docker.test.error.log;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<h4 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">+ 配置nginx缓存</span><br><span class="line"></span><br><span class="line">&#96;&#96;&#96;bash</span><br><span class="line"># http 区域下添加缓存区配置</span><br><span class="line"># inactivie&#x3D;60s 表示60s内没有被访问的文件会被 cache manager 删除</span><br><span class="line"># proxy_cache_path 指定缓存文件目录，和 proxy_temp_path 最好设置在同一文件分区下，缓存内容是先写在 temp_path，然后移动到 cache_path，不同文件分区会影响性能。</span><br><span class="line"># keys_zone 命名并设置缓存的内存空间大小，要注意的是这个内存空间并不保存缓存文件，而是缓存文件的元信息(meta information)，所以不必太大，根据文档 1M 大小可保存 8000 文件的元信息，可以根据缓存文件数量进行设置。</span><br><span class="line"># 当levels&#x3D;1:2时，表示是两级目录，1和2表示用1位和2位16进制来命名目录名称。</span><br><span class="line"># 当levels&#x3D;2时，表示是一级目录，且目录数为16*16&#x3D;256</span><br><span class="line"># 当levels&#x3D;2:2:2时，表示是三级目录，且每级目录数均为16*16个</span><br><span class="line"></span><br><span class="line">proxy_cache_path &#x2F;tmp&#x2F;nginx_proxy_cache levels&#x3D;1 keys_zone&#x3D;cache_one:512m inactive&#x3D;60s max_size&#x3D;1000m;</span><br><span class="line"></span><br><span class="line"># server 区域下添加缓存配置</span><br><span class="line">location ~ \.(gif|jpg|png|htm|html|css|js)(.*) &#123;</span><br><span class="line">    proxy_pass http:&#x2F;&#x2F;192.168.4.32:5000；#如果没有缓存则转向请求</span><br><span class="line">    proxy_redirect off;</span><br><span class="line">    proxy_cache cache_one;</span><br><span class="line">    proxy_cache_valid 200 1h;            #对不同的 HTTP 状态码设置不同的缓存时间</span><br><span class="line">    proxy_cache_valid 500 1d;</span><br><span class="line">    proxy_cache_valid any 1m;</span><br><span class="line">    expires 3d;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"># expires    24h;</span><br><span class="line"># expires    modified +24h;</span><br><span class="line"># expires    @24h;</span><br><span class="line"># expires    0;</span><br><span class="line"># expires    -1;</span><br><span class="line"># expires    epoch;</span><br><span class="line"># expires    $expires;</span><br><span class="line"># add_header Cache-Control private;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>搭建文件服务器</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">server &#123;</span><br><span class="line">    server_name docker-file;</span><br><span class="line">    listen 9000;</span><br><span class="line">    root /etc/nginx/conf.d/; <span class="comment"># 存放文件的目录</span></span><br><span class="line">    location / &#123;</span><br><span class="line">        autoindex on; <span class="comment"># 索引</span></span><br><span class="line">        autoindex_exact_size on; <span class="comment"># 显示文件大小</span></span><br><span class="line">        autoindex_localtime on; <span class="comment"># 显示文件时间</span></span><br><span class="line">    &#125;</span><br><span class="line">    access_log  /var/<span class="built_in">log</span>/nginx/docker.file.log;</span><br><span class="line">    error_log  /var/<span class="built_in">log</span>/nginx/docker.file.error.log;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>配置跨域</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F; &#123;</span><br><span class="line">     if ($request_method &#x3D; &#39;OPTIONS&#39;) &#123;</span><br><span class="line">        add_header &#39;Access-Control-Allow-Origin&#39; &#39;*&#39;;</span><br><span class="line">        #</span><br><span class="line">        # Om nom nom cookies</span><br><span class="line">        #</span><br><span class="line">        add_header &#39;Access-Control-Allow-Credentials&#39; &#39;true&#39;;</span><br><span class="line">        add_header &#39;Access-Control-Allow-Methods&#39; &#39;GET, POST, OPTIONS&#39;;</span><br><span class="line">        #</span><br><span class="line">        # Custom headers and headers various browsers *should* be OK with but aren&#39;t</span><br><span class="line">        #</span><br><span class="line">        add_header &#39;Access-Control-Allow-Headers&#39; &#39;DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type&#39;;</span><br><span class="line">        #</span><br><span class="line">        # Tell client that this pre-flight info is valid for 20 days</span><br><span class="line">        #</span><br><span class="line">        add_header &#39;Access-Control-Max-Age&#39; 1728000;</span><br><span class="line">        add_header &#39;Content-Type&#39; &#39;text&#x2F;plain charset&#x3D;UTF-8&#39;;</span><br><span class="line">        add_header &#39;Content-Length&#39; 0;</span><br><span class="line">        return 204;</span><br><span class="line">     &#125;</span><br><span class="line">     if ($request_method &#x3D; &#39;POST&#39;) &#123;</span><br><span class="line">        add_header &#39;Access-Control-Allow-Origin&#39; &#39;*&#39;;</span><br><span class="line">        add_header &#39;Access-Control-Allow-Credentials&#39; &#39;true&#39;;</span><br><span class="line">        add_header &#39;Access-Control-Allow-Methods&#39; &#39;GET, POST, OPTIONS&#39;;</span><br><span class="line">        add_header &#39;Access-Control-Allow-Headers&#39; &#39;DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type&#39;;</span><br><span class="line">     &#125;</span><br><span class="line">     if ($request_method &#x3D; &#39;GET&#39;) &#123;</span><br><span class="line">        add_header &#39;Access-Control-Allow-Origin&#39; &#39;*&#39;;</span><br><span class="line">        add_header &#39;Access-Control-Allow-Credentials&#39; &#39;true&#39;;</span><br><span class="line">        add_header &#39;Access-Control-Allow-Methods&#39; &#39;GET, POST, OPTIONS&#39;;</span><br><span class="line">        add_header &#39;Access-Control-Allow-Headers&#39; &#39;DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type&#39;;</span><br><span class="line">     &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="nginx负载均衡的几种方法"><a href="#nginx负载均衡的几种方法" class="headerlink" title="nginx负载均衡的几种方法"></a>nginx负载均衡的几种方法</h3><h4 id="轮询-round-robin"><a href="#轮询-round-robin" class="headerlink" title="轮询(round-robin)"></a>轮询(round-robin)</h4><p>每个请求按时间顺序逐一分配到不同的后端服务器，如果后端服务器down掉，能自动剔除</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">upstream node_cluster &#123;</span><br><span class="line">    server 10.16.48.158:8080;</span><br><span class="line">    server 10.16.48.158:8081;</span><br><span class="line">    server 10.16.48.158:8082;</span><br><span class="line">&#125;</span><br><span class="line">server &#123;</span><br><span class="line">    ...</span><br><span class="line">    location ~ /docker/ &#123;</span><br><span class="line">        proxy_pass http://node_cluster;</span><br><span class="line">    &#125;</span><br><span class="line">    ...</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="加权轮询"><a href="#加权轮询" class="headerlink" title="加权轮询"></a>加权轮询</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">upstream node_cluster &#123;</span><br><span class="line">    server 10.16.48.158:8080 weight&#x3D;2;</span><br><span class="line">    server 10.16.48.158:8081 weight&#x3D;1;</span><br><span class="line">    server 10.16.48.158:8082 weight&#x3D;1;</span><br><span class="line">&#125;</span><br><span class="line">server &#123;</span><br><span class="line">    ...</span><br><span class="line">    root &#x2F;apps&#x2F;;</span><br><span class="line">    location ~ &#x2F;docker&#x2F; &#123;</span><br><span class="line">        proxy_pass http:&#x2F;&#x2F;node_cluster;</span><br><span class="line">        ...</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="ip-hash"><a href="#ip-hash" class="headerlink" title="ip-hash"></a>ip-hash</h4><p>根据每个请求的ip的hash结果分配，因此每个固定ip能访问到同一个后端服务器，可以解决session问题。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">upstream node_cluster &#123;</span><br><span class="line">    ip_hash;</span><br><span class="line">    server 10.16.48.158:8080;</span><br><span class="line">    server 10.16.48.158:8081;</span><br><span class="line">    server 10.16.48.158:8082;</span><br><span class="line">&#125;</span><br><span class="line">server &#123;</span><br><span class="line">    ...</span><br><span class="line">    root &#x2F;apps&#x2F;;</span><br><span class="line">    location ~ &#x2F;docker&#x2F; &#123;</span><br><span class="line">        proxy_pass http:&#x2F;&#x2F;node_cluster;</span><br><span class="line">        ...</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="热备"><a href="#热备" class="headerlink" title="热备"></a>热备</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">upstream node_cluster &#123;</span><br><span class="line">    ip_hash;</span><br><span class="line">    server 10.16.48.158:8080;</span><br><span class="line">    server 10.16.48.158:8081;</span><br><span class="line">    server 10.16.48.158:8082 back;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="其他的一些方式"><a href="#其他的一些方式" class="headerlink" title="其他的一些方式"></a>其他的一些方式</h4><ul>
+<li><p>fair（第三方）</p>
+<p>按照后端服务器的响应时间来分配请求，响应时间短的优先分配。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">upstream favresin&#123;</span><br><span class="line">    server 10.0.0.10:8080;</span><br><span class="line">    server 10.0.0.11:8080;</span><br><span class="line">    fair;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+<li><p>url_hash（第三方）</p>
+<p>按访问url的hash结果来分配请求，使每个url定向到同一个后端服务器，后端服务器为缓存时比较有效。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">upstream resinserver&#123;</span><br><span class="line">    server 10.0.0.10:7777;</span><br><span class="line">    server 10.0.0.11:8888;</span><br><span class="line">    <span class="built_in">hash</span> <span class="variable">$request_uri</span>;</span><br><span class="line">    hash_method crc32;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="参数解释"><a href="#参数解释" class="headerlink" title="参数解释"></a>参数解释</h4></li>
+<li><p>down，表示当前的server暂时不参与负载均衡。</p>
+</li>
+<li><p>backup，预留的备份机器。当其他所有的非backup机器出现故障或者忙的时候，才会请求backup机器，因此这台机器的压力最轻。</p>
+</li>
+<li><p>max_fails，允许请求失败的次数，默认为1。当超过最大次数时，返回proxy_next_upstream 模块定义的错误。</p>
+</li>
+<li><p>fail_timeout，请求失败超时时间，在经历了max_fails次失败后，暂停服务的时间。max_fails和fail_timeout可以一起使用</p>
+</li>
+</ul>
+<p><em>参考</em></p>
+<ul>
+<li><a href="https://www.nginx.cn/doc/">nginx中文文档</a></li>
+<li><a href="http://tengine.taobao.org/book/index.html#">Nginx开发从入门到精通</a></li>
+<li><a href="https://cloud.tencent.com/developer/article/1418457">终于有人把正向代理和反向代理解释的明明白白了</a></li>
+<li><a href="https://www.cnblogs.com/lvgg/p/6140584.html">nignx 负载均衡的几种算法介绍</a></li>
+<li><a href="https://www.cnblogs.com/sunsky303/p/11865321.html">hash 算法原理及应用漫谈</a></li>
+<li><a href="http://nginx.org/en/docs/varindex.html">Alphabetical index of variables</a></li>
+<li><a href="http://nginx.org/en/docs/http/ngx_http_headers_module.html#add_header">Module ngx_http_headers_module</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>nginx</category>
+      </categories>
+      <tags>
+        <tag>nginx</tag>
+        <tag>负载均衡</tag>
+        <tag>热备</tag>
       </tags>
   </entry>
 </search>
